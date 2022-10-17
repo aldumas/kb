@@ -8,11 +8,11 @@ git log --full-history --oneline -- <path/to/file>
 ```
 
 Show the affected files of a given commit:
-```
+```sh
 git show --pretty="" --name-status <hash>
 ```
 
 Show the name of the current branch:
-```
+```sh
 git rev-parse --abbrev-ref HEAD
 ```
