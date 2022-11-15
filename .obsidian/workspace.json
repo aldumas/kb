@@ -26,14 +26,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kotlin/idioms.md",
+                "file": "project-ideas/curiosities/sliding-puzzle--invalid-configurations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "927a4c4c8f7b7042",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project-ideas/curiosities/java-string-max-length.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kotlin/idioms.md",
+                "file": "project-ideas/curiosities/java-string-max-length.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kotlin/idioms.md",
+                "file": "project-ideas/curiosities/java-string-max-length.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kotlin/idioms.md"
+                "file": "project-ideas/curiosities/java-string-max-length.md"
               }
             }
           },
@@ -158,13 +170,14 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "0603e18da8b5b5f9",
+  "active": "927a4c4c8f7b7042",
   "lastOpenFiles": [
-    "git/commands.md",
+    "project-ideas/curiosities/sliding-puzzle--invalid-configurations.md",
+    "project-ideas/simulations/tic-tac-toe.md",
+    "project-ideas/simulations/sliding-puzzle--solver.md",
+    "project-ideas/curiosities/lets-make-a-deal.md",
     "kotlin/idioms.md",
+    "git/commands.md",
     "Untitled.md",
     "2022-10-17.md"
   ]
