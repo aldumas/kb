@@ -40,7 +40,7 @@
               "state": {
                 "file": "project-ideas/curiosities/java-string-max-length.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -172,11 +172,12 @@
   },
   "active": "927a4c4c8f7b7042",
   "lastOpenFiles": [
+    "kotlin/idioms.md",
+    "project-ideas/curiosities/java-string-max-length.md",
     "project-ideas/curiosities/sliding-puzzle--invalid-configurations.md",
     "project-ideas/simulations/tic-tac-toe.md",
     "project-ideas/simulations/sliding-puzzle--solver.md",
     "project-ideas/curiosities/lets-make-a-deal.md",
-    "kotlin/idioms.md",
     "git/commands.md",
     "Untitled.md",
     "2022-10-17.md"
