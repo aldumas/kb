@@ -39,7 +39,7 @@
               "type": "markdown",
               "state": {
                 "file": "project-ideas/curiosities/java-string-max-length.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#lang",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,7 +171,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "927a4c4c8f7b7042",
+  "active": "8524d29d198bf938",
   "lastOpenFiles": [
     "kotlin/idioms.md",
     "project-ideas/curiosities/java-string-max-length.md",
