@@ -1,5 +1,0 @@
-| Category  | Name                   | Description                                                                                                                                                                                              |
-| --------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Curiosity | Java String Max Length | What is the maximum length of a Java String,assuming you are not limited by memory. What does the `length()` method return if you have more characters than the maximum int value (if that is possible)? |
-|           |                        |                                                                                                                                                                                                          |
-12345678901234567890123456789012345678901234567890123456789012345678901234567890
