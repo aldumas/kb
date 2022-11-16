@@ -26,14 +26,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project-ideas/curiosities/java-string-max-length.md",
+                "file": "projects/curiosities/sliding-puzzle--invalid-configurations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "927a4c4c8f7b7042",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/curiosities/java-string-max-length.md",
                 "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e5b80488735919f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/games/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3bbbe6690bf7100",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/ideas.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -99,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "project-ideas/curiosities/java-string-max-length.md",
+                "file": "projects/ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "project-ideas/curiosities/java-string-max-length.md",
+                "file": "projects/ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "project-ideas/curiosities/java-string-max-length.md"
+                "file": "projects/ideas.md"
               }
             }
           },
@@ -150,24 +186,33 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "81f1c8132f11305f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "0603e18da8b5b5f9",
+  "active": "c3bbbe6690bf7100",
   "lastOpenFiles": [
-    "project-ideas/curiosities/lets-make-a-deal.md",
-    "project-ideas/curiosities/java-string-max-length.md",
-    "kotlin/idioms.md",
+    "projects/curiosities/java-string-max-length.md",
+    "projects/curiosities/sliding-puzzle--invalid-configurations.md",
+    "projects/curiosities/lets-make-a-deal.md",
+    "projects/ideas.md",
+    "projects/games/Untitled.md",
     "git/commands.md",
-    "Untitled.md",
-    "2022-10-17.md"
+    "kotlin/idioms.md",
+    "projects/simulations/tic-tac-toe.md",
+    "projects/simulations/sliding-puzzle--solver.md",
+    "Untitled.md"
   ]
 }
