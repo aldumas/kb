@@ -91,9 +91,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a02bfc18bd374350",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -159,7 +167,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kotlin/idioms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +183,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kotlin/idioms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,9 +204,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "kotlin/idioms.md"
-              }
+              "state": {}
             }
           },
           {
@@ -226,17 +230,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "450e206f0e8587f2",
+  "active": "a02bfc18bd374350",
   "lastOpenFiles": [
+    "().md",
+    "link.md",
+    "projects/palindrome-checker.md",
+    "kotlin/idioms.md",
     "projects/java-string-max-length.md",
     "projects/lets-make-a-deal.md",
     "projects/sliding-puzzle--invalid-configurations.md",
     "projects/sliding-puzzle--solver.md",
     "projects/hangman.md",
-    "projects/tic-tac-toe.md",
-    "projects/snake.md",
-    "projects/minesweeper.md",
-    "projects/ideas.md",
-    "git/commands.md"
+    "projects/tic-tac-toe.md"
   ]
 }
