@@ -88,7 +88,7 @@
               "state": {
                 "file": "projects/java-string-max-length.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -224,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 736.5
   },
   "active": "450e206f0e8587f2",
   "lastOpenFiles": [
