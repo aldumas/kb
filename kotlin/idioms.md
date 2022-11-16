@@ -25,8 +25,13 @@ These are some patterns I need to find idioms and patterns for.
 
 Invoke different and unrelated behavior depending on whether a value is `null`.
 ```kotlin
-if (arg == null)
+val x = if (arg == null)
 	methodA()
 else
 	methodB(arg)
+
+// becomes
+
+val x = arg == null ? methodA() : methodB(arg)
+
 ```

@@ -86,9 +86,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/java-string-max-length.md",
+                "file": "kotlin/idioms.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/java-string-max-length.md",
+                "file": "kotlin/idioms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/java-string-max-length.md",
+                "file": "kotlin/idioms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/java-string-max-length.md"
+                "file": "kotlin/idioms.md"
               }
             }
           },
@@ -224,15 +224,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 736.5
+    "width": 200
   },
   "active": "450e206f0e8587f2",
   "lastOpenFiles": [
+    "projects/java-string-max-length.md",
     "projects/lets-make-a-deal.md",
     "projects/sliding-puzzle--invalid-configurations.md",
     "projects/sliding-puzzle--solver.md",
     "projects/hangman.md",
-    "projects/java-string-max-length.md",
     "projects/tic-tac-toe.md",
     "projects/snake.md",
     "projects/minesweeper.md",
