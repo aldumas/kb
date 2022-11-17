@@ -1,0 +1,3 @@
+Given an N shelf spice rack where each shelf has M spaces for spices where a spice can occupy 1 or 2 spaces, and given that all spices on the rack are in alphabetical order, though not guaranteed to be compacted. 
+
+Given a spice to place on the rack: if it’s possible to place the spice in alphabetical order without moving other spices in the same shelf, do that. Otherwise, try to move the minimum number of spices in the same shelf and/or move spices to/from other shelf(ves). Otherwise, it is ok to break alphabetical order, but only by moving the minimum number of spices.
