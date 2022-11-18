@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/java-string-max-length.md",
+                "file": "git/commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/java-string-max-length.md",
+                "file": "git/commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/java-string-max-length.md"
+                "file": "git/commands.md"
               }
             }
           },
@@ -224,9 +224,9 @@
       }
     ],
     "direction": "horizontal",
-    "width": 736.5
+    "width": 643.5
   },
-  "active": "450e206f0e8587f2",
+  "active": "81f1c8132f11305f",
   "lastOpenFiles": [
     "projects/lets-make-a-deal.md",
     "projects/sliding-puzzle--invalid-configurations.md",
