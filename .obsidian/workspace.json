@@ -96,12 +96,28 @@
             "id": "a02bfc18bd374350",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "projects/spice-rack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f10742aad66adda6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/sudoku-solver.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -167,6 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "projects/sudoku-solver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,6 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "projects/sudoku-solver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +222,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "projects/sudoku-solver.md"
+              }
             }
           },
           {
@@ -230,8 +250,10 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "a02bfc18bd374350",
+  "active": "f10742aad66adda6",
   "lastOpenFiles": [
+    "projects/spice-rack.md",
+    "git/commands.md",
     "().md",
     "link.md",
     "projects/palindrome-checker.md",
@@ -239,8 +261,6 @@
     "projects/java-string-max-length.md",
     "projects/lets-make-a-deal.md",
     "projects/sliding-puzzle--invalid-configurations.md",
-    "projects/sliding-puzzle--solver.md",
-    "projects/hangman.md",
-    "projects/tic-tac-toe.md"
+    "projects/sliding-puzzle--solver.md"
   ]
 }
