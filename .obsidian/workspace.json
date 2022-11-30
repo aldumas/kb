@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "a88b61a5296f24c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f812f82d08f2c476",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66fa419c038d61c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/java-string-max-length.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7d293f71acc7a59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zettelkasten/kotlin-map.getOrDefault-to-avoid-control-structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aeaf8e0d430fce7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zettelkasten/git-useful-commands.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "442e1b1752aad750",
+    "type": "split",
+    "children": [
+      {
+        "id": "57a578a6b3caa330",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebb925963bf15bbd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d53ffc70c5257332",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#idiom",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a50a91cc96bedb58",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd2dc7551dc4ecbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6afc85d8cc4a887",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffe14ecba62d0948",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "zettelkasten/git-useful-commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "80008655e921cdbb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "zettelkasten/git-useful-commands.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1310a20da3affd38",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "33a6c711ec03f951",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "zettelkasten/git-useful-commands.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "ebb925963bf15bbd",
+  "lastOpenFiles": [
+    "zettelkasten/java-avoid-char.md",
+    "references/Core Java - Volume 1.md",
+    "zettelkasten/Untitled.md",
+    "zettelkasten/kotlin-map.getOrDefault-to-avoid-control-structure.md",
+    "projects/java-string-max-length.md",
+    "zettelkasten/kotlin-idiom-takeIf-over-else-null.md",
+    "zettelkasten/git-useful-commands.md",
+    "examples.md",
+    "templates/zettel.md",
+    "projects/minesweeper.md"
+  ]
+}
