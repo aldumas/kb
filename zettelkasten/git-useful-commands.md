@@ -1,7 +1,7 @@
 ---
 created-at: 2022-11-30 12:04
 role: idea
-tags: git tool tip
+tags: git tool collection
 ---
 
 Show the full history of a file, even if it has been deleted:

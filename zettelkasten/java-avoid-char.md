@@ -1,7 +1,7 @@
 ---
 created-at: 2022-11-30 12:49
 role: idea
-tags: java primitive tip
+tags: java primitive advice
 ---
 
 Treat strings as abstract data types and avoid working directly with `char`s. If you really need to work with the individual characters in the string, work with code points. Java `char`s are code units and might not represent the full character.
