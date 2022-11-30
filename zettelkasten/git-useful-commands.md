@@ -1,6 +1,8 @@
-This is a list of Git commands I have found useful.
-
-- - -
+---
+created-at: 2022-11-30 12:04
+role: idea
+tags: git tool tip
+---
 
 Show the full history of a file, even if it has been deleted:
 ```sh
@@ -16,3 +18,5 @@ Show the name of the current branch:
 ```sh
 git rev-parse --abbrev-ref HEAD
 ```
+
+

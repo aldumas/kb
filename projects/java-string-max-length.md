@@ -1,6 +1,6 @@
 ---
 tags:
-  - lang/java
+  - java
   - project-type/curiosity
 ---
 
