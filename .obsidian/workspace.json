@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/git-useful-commands.md",
+                "file": "templates/zettel.md",
                 "mode": "source",
                 "source": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/git-useful-commands.md",
+                "file": "templates/zettel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/git-useful-commands.md",
+                "file": "templates/zettel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/git-useful-commands.md"
+                "file": "templates/zettel.md"
               }
             }
           }
@@ -161,15 +161,15 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "ebb925963bf15bbd",
+  "active": "aeaf8e0d430fce7f",
   "lastOpenFiles": [
+    "zettelkasten/git-useful-commands.md",
     "zettelkasten/java-avoid-char.md",
     "references/Core Java - Volume 1.md",
     "zettelkasten/Untitled.md",
     "zettelkasten/kotlin-map.getOrDefault-to-avoid-control-structure.md",
     "projects/java-string-max-length.md",
     "zettelkasten/kotlin-idiom-takeIf-over-else-null.md",
-    "zettelkasten/git-useful-commands.md",
     "examples.md",
     "templates/zettel.md",
     "projects/minesweeper.md"
