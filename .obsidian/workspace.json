@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/compiling-java-programs.md",
+                "file": "zettelkasten/java-class-filename-requirement.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#idiom",
+                "query": "tag:#package",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/compiling-java-programs.md",
+                "file": "zettelkasten/java-class-filename-requirement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/compiling-java-programs.md",
+                "file": "zettelkasten/java-class-filename-requirement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/compiling-java-programs.md"
+                "file": "zettelkasten/java-class-filename-requirement.md"
               }
             }
           }
@@ -175,15 +175,15 @@
   },
   "active": "74b15188399f2d8d",
   "lastOpenFiles": [
-    "zettelkasten/java-class-filename-requirement.md",
-    "zettelkasten/compiling-java-programs.md",
-    "templates/zettel.md",
+    "zettelkasten/kotlin-idiom-takeIf-over-else-null.md",
     "references/Core Java - Volume 1.md",
-    "files/Core Java - 03.01-03.03.01a.pdf",
+    "zettelkasten/java-class-filename-requirement.md",
     "zettelkasten/git-useful-commands.md",
+    "zettelkasten/java-package-directory-requirement.md",
     "zettelkasten/java-avoid-char.md",
-    "examples.md",
-    "zettelkasten/kotlin-map.getOrDefault-to-avoid-control-structure.md",
-    "projects/java-string-max-length.md"
+    "zettelkasten/executing-java-programs.md",
+    "zettelkasten/compiling-java-programs.md",
+    "zettelkasten/hello.md",
+    "templates/zettel.md"
   ]
 }
