@@ -2,5 +2,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "zettelkasten",
   "attachmentFolderPath": "files",
-  "showFrontmatter": false
+  "showFrontmatter": false,
+  "showInlineTitle": false
 }

@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "examples.md",
+                "file": "zettelkasten/java-avoid-char.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "74b15188399f2d8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zettelkasten/compiling-java-programs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "examples.md",
+                "file": "zettelkasten/compiling-java-programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "examples.md",
+                "file": "zettelkasten/compiling-java-programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "examples.md"
+                "file": "zettelkasten/compiling-java-programs.md"
               }
             }
           }
@@ -161,17 +173,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "aeaf8e0d430fce7f",
+  "active": "74b15188399f2d8d",
   "lastOpenFiles": [
+    "zettelkasten/java-class-filename-requirement.md",
+    "zettelkasten/compiling-java-programs.md",
     "templates/zettel.md",
+    "references/Core Java - Volume 1.md",
+    "files/Core Java - 03.01-03.03.01a.pdf",
     "zettelkasten/git-useful-commands.md",
     "zettelkasten/java-avoid-char.md",
-    "references/Core Java - Volume 1.md",
-    "zettelkasten/Untitled.md",
-    "zettelkasten/kotlin-map.getOrDefault-to-avoid-control-structure.md",
-    "projects/java-string-max-length.md",
-    "zettelkasten/kotlin-idiom-takeIf-over-else-null.md",
     "examples.md",
-    "projects/minesweeper.md"
+    "zettelkasten/kotlin-map.getOrDefault-to-avoid-control-structure.md",
+    "projects/java-string-max-length.md"
   ]
 }
