@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-13 08:45
 role: idea
-tags: coercion conversion
+tags: implicit coercion conversion
 ---
 
 # Numeric Promotion Rules
