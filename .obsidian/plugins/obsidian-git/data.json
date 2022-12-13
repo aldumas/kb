@@ -10,7 +10,7 @@
   "pullBeforePush": true,
   "disablePopups": false,
   "listChangedFilesInMessageBody": false,
-  "showStatusBar": true,
+  "showStatusBar": false,
   "updateSubmodules": false,
   "syncMethod": "merge",
   "customMessageOnAutoBackup": false,
@@ -22,6 +22,6 @@
   "changedFilesInStatusBar": false,
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
-  "showBranchStatusBar": true,
+  "showBranchStatusBar": false,
   "setLastSaveToLastCommit": false
 }
