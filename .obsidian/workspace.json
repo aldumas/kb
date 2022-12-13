@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/java-integral-types.md",
+                "file": "zettelkasten/java-numeric-coercion.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#package",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/java-integral-types.md",
+                "file": "zettelkasten/java-numeric-coercion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/java-integral-types.md",
+                "file": "zettelkasten/java-numeric-coercion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/java-integral-types.md"
+                "file": "zettelkasten/java-numeric-coercion.md"
               }
             }
           }
@@ -187,15 +187,15 @@
   },
   "active": "74b15188399f2d8d",
   "lastOpenFiles": [
-    "zettelkasten/java-signed-as-unsigned.md",
-    "files/Core Java - 03.03.01b-03.03.02a.pdf",
-    "files/Core Java - 03.01-03.03.01a.pdf",
+    "zettelkasten/java-numeric-promotion-rules.md",
+    "zettelkasten/java-numeric-coercion.md",
     "zettelkasten/java-integral-types.md",
-    "zettelkasten/java-main-method.md",
-    "references/Core Java - Volume 1.md",
-    "zettelkasten/java-primitive-types.md",
-    "zettelkasten/java-class-filename-requirement.md",
-    "zettelkasten/java-executing-programs.md",
-    "zettelkasten/java-unicode-escapes-before-compilation.md"
+    "zettelkasten/java-floating-point-types.md",
+    "files/Core Java - 03.01-03.03.01a.pdf",
+    "files/Core Java - 03.03.01b-03.03.02a.pdf",
+    "files/Core Java - 03.04.01b-03.03.04.pdf",
+    "files/Core Java - 03.03.04-03.04.01a.pdf",
+    "files/Core Java - 03.03.03b.pdf",
+    "files/Core Java - 03.03.02b-03.03.03a.pdf"
   ]
 }
