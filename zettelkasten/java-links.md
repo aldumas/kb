@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-12 17:35
 role: idea
-tags: 
+tags: java
 ---
 
 Official language and virtual machine specs: https://docs.oracle.com/javase/specs/

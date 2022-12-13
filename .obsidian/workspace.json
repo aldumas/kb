@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/java-main-method.md",
+                "file": "zettelkasten/java-integral-types.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,17 +58,17 @@
           {
             "id": "ed66568923c55aeb",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "zettelkasten/java-unicode-escapes-before-compilation.md",
-                "mode": "source",
-                "source": false
-              }
+                "file": "files/Core Java - 03.01-03.03.01a.pdf"
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/java-unicode-escapes-before-compilation.md",
+                "file": "zettelkasten/java-integral-types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/java-unicode-escapes-before-compilation.md",
+                "file": "zettelkasten/java-integral-types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/java-unicode-escapes-before-compilation.md"
+                "file": "zettelkasten/java-integral-types.md"
               }
             }
           }
@@ -185,17 +185,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "ed66568923c55aeb",
+  "active": "74b15188399f2d8d",
   "lastOpenFiles": [
-    "zettelkasten/java-comments.md",
-    "zettelkasten/java-unicode-escapes-before-compilation.md",
+    "zettelkasten/java-signed-as-unsigned.md",
+    "files/Core Java - 03.03.01b-03.03.02a.pdf",
     "files/Core Java - 03.01-03.03.01a.pdf",
-    "zettelkasten/Untitled.md",
-    "zettelkasten/java-links.md",
+    "zettelkasten/java-integral-types.md",
     "zettelkasten/java-main-method.md",
     "references/Core Java - Volume 1.md",
+    "zettelkasten/java-primitive-types.md",
     "zettelkasten/java-class-filename-requirement.md",
-    "zettelkasten/compiling-java-programs.md",
-    "zettelkasten/executing-java-programs.md"
+    "zettelkasten/java-executing-programs.md",
+    "zettelkasten/java-unicode-escapes-before-compilation.md"
   ]
 }

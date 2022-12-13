@@ -3,5 +3,6 @@
   "newFileFolderPath": "zettelkasten",
   "attachmentFolderPath": "files",
   "showFrontmatter": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "alwaysUpdateLinks": true
 }

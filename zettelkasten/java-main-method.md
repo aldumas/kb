@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-12 17:29
 role: idea
-tags: 
+tags: java
 ---
 
 Signature of `main` method:

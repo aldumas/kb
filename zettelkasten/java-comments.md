@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-12 17:41
 role: idea
-tags: 
+tags: java
 ---
 
 There are 3 styles of comments:
