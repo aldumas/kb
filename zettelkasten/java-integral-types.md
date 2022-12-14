@@ -19,6 +19,8 @@ These sizes and ranges are fixed by the language spec and are therefore not mach
 
 Though these types are all signed, it is possible to [[java-signed-as-unsigned|work with them as unsigned]].
 
+Also read about integer [[java-literals|literals]].
+
 ---
 # References
 
