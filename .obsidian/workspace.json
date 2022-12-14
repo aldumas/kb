@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/java-literals.md",
+                "file": "zettelkasten/java-floating-point-literals.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,32 +49,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/java-signed-as-unsigned.md",
+                "file": "zettelkasten/java-floating-point-literals.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e9c9e15cff3c7a69",
+            "id": "3417fbf5cf2705aa",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "pdf",
               "state": {
-                "file": "files/Core Java - 03.03.01b-03.03.02a.pdf"
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "ed66568923c55aeb",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "files/Core Java - 03.01-03.03.01a.pdf"
+                "file": "files/Core Java - 03.03.02b-03.03.03a.pdf"
               },
               "pinned": true
             }
@@ -146,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/java-signed-as-unsigned.md",
+                "file": "zettelkasten/java-floating-point-literals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/java-signed-as-unsigned.md",
+                "file": "zettelkasten/java-floating-point-literals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,12 +174,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/java-signed-as-unsigned.md"
+                "file": "zettelkasten/java-floating-point-literals.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,15 +186,15 @@
   },
   "active": "74b15188399f2d8d",
   "lastOpenFiles": [
-    "files/Core Java - 03.03.01b-03.03.02a.pdf",
-    "zettelkasten/java-signed-as-unsigned.md",
-    "zettelkasten/java-literals.md",
-    "zettelkasten/java-integral-types.md",
-    "zettelkasten/java-compiling-programs.md",
-    "zettelkasten/java-package-directory-requirement.md",
-    "zettelkasten/java-unicode-escapes-before-compilation.md",
+    "files/Core Java - 03.03.02b-03.03.03a.pdf",
+    "zettelkasten/java-floating-point-literals.md",
     "zettelkasten/java-floating-point-types.md",
-    "zettelkasten/java-casting.md",
-    "zettelkasten/java-numeric-promotion-rules.md"
+    "files/Core Java - 03.03.01b-03.03.02a.pdf",
+    "zettelkasten/java-integral-types.md",
+    "zettelkasten/java-integer-literals.md",
+    "zettelkasten/java-signed-as-unsigned.md",
+    "zettelkasten/java-floating-point-math-different-results.md",
+    "zettelkasten/java-compiling-programs.md",
+    "zettelkasten/java-package-directory-requirement.md"
   ]
 }
