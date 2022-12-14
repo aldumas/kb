@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/java-switch.md",
+                "file": "zettelkasten/java-numeric-promotion-rules.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/java-switch.md",
+                "file": "zettelkasten/java-numeric-promotion-rules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/java-switch.md",
+                "file": "zettelkasten/java-numeric-promotion-rules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/java-switch.md"
+                "file": "zettelkasten/java-numeric-promotion-rules.md"
               }
             }
           }
@@ -199,15 +199,15 @@
   },
   "active": "e9c9e15cff3c7a69",
   "lastOpenFiles": [
+    "zettelkasten/java-casting.md",
+    "zettelkasten/java-floating-point-types.md",
+    "zettelkasten/java-numeric-promotion-rules.md",
+    "zettelkasten/java-main-method.md",
+    "zettelkasten/java-switch.md",
     "zettelkasten/Untitled.md",
     "zettelkasten/java-char-type.md",
     "zettelkasten/java-integral-types.md",
-    "zettelkasten/java-floating-point-types.md",
-    "zettelkasten/java-numeric-promotion-rules.md",
-    "zettelkasten/java-casting.md",
     "zettelkasten/java-numeric-coercion.md",
-    "zettelkasten/java-primitive-types.md",
-    "zettelkasten/java-package-directory-requirement.md",
-    "files/Core Java - 03.01-03.03.01a.pdf"
+    "zettelkasten/java-primitive-types.md"
   ]
 }
