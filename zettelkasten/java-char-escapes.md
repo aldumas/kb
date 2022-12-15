@@ -21,7 +21,5 @@ Java supports the following escapes:
 | `\newline` | newline (skip newline)          | text block                  |
 | `\u`       | unicode                         | anywhere in program text    |
 
-
-
 ---
 # References
