@@ -6,7 +6,7 @@ tags: java unicode escapes
 
 # Unicode escapes processing time
 
-Unicode escapes are processed prior to compilation. This has some important ramifications.
+Unicode [[java-char-escapes|escapes]] are processed prior to compilation. This has some important ramifications.
 
 ## Unicode escapes are allowed in program text
 
@@ -33,7 +33,7 @@ public class Example {
 
 This is because the \\u0022 (quotation marks) escapes are processed prior to compilation and essentially replaced with \" and then the whole file is compiled.
 
-## Unicode escapes are even processed in comments
+## Unicode escapes are even processed in [[java-comments|comments]]
 
 ```java
 public class Example {
@@ -43,14 +43,19 @@ public class Example {
 		// \u000a iWillGetCalled();
 	}
 
-	private void iWillGetCalled() {
+	private static void iWillGetCalled() {
 		System.out.println("I got called!");
 	}
 }
 ```
 
+## Compilation errors due to unicode-escape-like strings
 
-#todo fill this out about how unicode escapes are processed before compilation, and give examples of gotchas. Link to java-comments and java-unicode-escapes (once created)
+You might want to have a string like `var str = "C:\users";`. This will produce a compilation error since the `\u` is interpreted as a unicode-escape, but `sers` is not a valid hexadecimal value for the escape.
 
 ---
 # References
+
+[[Core Java - Volume 1#03 - Fundamental Programming Structures in Java]]
+[[Core Java - 03.03.02b-03.03.03a.pdf]]
+[[Core Java - 03.03.03b.pdf]]

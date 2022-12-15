@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f812f82d08f2c476",
+        "id": "6a38ae7273d73f4e",
         "type": "tabs",
         "children": [
           {
-            "id": "74b15188399f2d8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zettelkasten/java-unicode-escapes-before-compilation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3417fbf5cf2705aa",
+            "id": "199743674550e82a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "pdf",
               "state": {
-                "file": "files/Core Java - 03.03.02b-03.03.03a.pdf"
+                "file": "files/Core Java - 03.03.04-03.04.01a.pdf"
               },
               "pinned": true
             }
+          },
+          {
+            "id": "af9d078c5fa71da3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zettelkasten/java-numeric-promotion-rules.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/java-unicode-escapes-before-compilation.md",
+                "file": "zettelkasten/java-numeric-promotion-rules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/java-unicode-escapes-before-compilation.md",
+                "file": "zettelkasten/java-numeric-promotion-rules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/java-unicode-escapes-before-compilation.md"
+                "file": "zettelkasten/java-numeric-promotion-rules.md"
               }
             }
           }
@@ -147,17 +148,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "74b15188399f2d8d",
+  "active": "af9d078c5fa71da3",
   "lastOpenFiles": [
-    "zettelkasten/java-char-escapes.md",
+    "zettelkasten/java-unicode-escapes-before-compilation.md",
+    "files/Core Java - 03.03.04-03.04.01a.pdf",
+    "files/Core Java - 03.04.01b-03.03.04.pdf",
     "files/Core Java - 03.03.02b-03.03.03a.pdf",
-    "zettelkasten/java-char-type.md",
-    "zettelkasten/java-floating-point-types.md",
-    "zettelkasten/java-code-point.md",
+    "files/Core Java - 03.03.01b-03.03.02a.pdf",
+    "files/Core Java - 03.01-03.03.01a.pdf",
     "files/Core Java - 03.03.03b.pdf",
-    "zettelkasten/java-floating-point-literals.md",
-    "zettelkasten/java-floating-point-infinity.md",
-    "zettelkasten/java-floating-point-nan.md",
-    "zettelkasten/java-integer-literals.md"
+    "zettelkasten/java-char-escapes.md",
+    "zettelkasten/java-unicode-escapes-multiple-u.md",
+    "zettelkasten/java-char-type.md"
   ]
 }
