@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "66fa419c038d61c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zettelkasten/java-floating-point-literals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7d293f71acc7a59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zettelkasten/kotlin-map.getOrDefault-to-avoid-control-structure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aeaf8e0d430fce7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zettelkasten/java-avoid-char.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "74b15188399f2d8d",
             "type": "leaf",
             "state": {
@@ -67,8 +31,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,10 +151,10 @@
   "lastOpenFiles": [
     "files/Core Java - 03.03.02b-03.03.03a.pdf",
     "zettelkasten/java-floating-point-literals.md",
+    "zettelkasten/java-integer-literals.md",
     "zettelkasten/java-floating-point-types.md",
     "files/Core Java - 03.03.01b-03.03.02a.pdf",
     "zettelkasten/java-integral-types.md",
-    "zettelkasten/java-integer-literals.md",
     "zettelkasten/java-signed-as-unsigned.md",
     "zettelkasten/java-floating-point-math-different-results.md",
     "zettelkasten/java-compiling-programs.md",

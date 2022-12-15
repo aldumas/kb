@@ -4,17 +4,16 @@ role: idea
 tags: 
 ---
 
-# Literals
+# Floating point literals
+Without a suffix, a number in fixed point or exponential form will be typed as a `double`. If you want the literal to be typed as a `float`, you can use a `F` or `f` suffix, e.g. `3.14f`.
 
+If you want to be explicit about the fact that a number is a `double`, you can supply a `D` or `d` suffix, e.g. `3.14d`. This is mostly useful if you want to have a double literal that would normally be interpreted by the compiler as an integer literal, e.g. `42d`. In this case, however, it might be clearer to write the literal as `42.` or `42.0`.
 
-## Floating point numbers
-Without a suffix, a number in fixed point form or scientific notation will be typed as a `double`. If you want the literal to be typed as a `float`, you can use a `F` or `f` suffix, e.g. `3.14f`.
+## Exponential form
+Exponential form literals use `E` or `e` to denote the decimal exponent, e.g. `2.99792458e8` is 2.99792458 x 10^8.
 
-If you want to be explicit about the fact that a number is a double, you can supply a `D` or `d` suffix, e.g. `3.14d`. This is mostly useful if you want to have a double literal that would normally be interpreted by the compiler as an integer literal, e.g. `42d`. In this case, however, it might be clearer to write the literal as `42.` or `42.0`.
-
-#todo binary fp literal
-
-
+## Hexadecimal floating point literals
+Floating point literals can also be written in hexadecimal using exponential form, though the exponent is still in base-10, e.g. 2^-3 can be written as `0x1.0p-3`. Note that instead of `E` or `e` before the exponent, we use `P` or `p` since `E`  and `e` is a hexadecimal digit.
 
 ---
 # References
