@@ -11,9 +11,11 @@
             "id": "74b15188399f2d8d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "files/Core Java - 03.03.03b.pdf"
+                "file": "zettelkasten/java-char-escapes.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -95,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "files/Core Java - 03.03.03b.pdf",
+                "file": "zettelkasten/java-char-escapes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "files/Core Java - 03.03.03b.pdf",
+                "file": "zettelkasten/java-char-escapes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "files/Core Java - 03.03.03b.pdf"
+                "file": "zettelkasten/java-char-escapes.md"
               }
             }
           }
@@ -148,14 +150,14 @@
   "active": "74b15188399f2d8d",
   "lastOpenFiles": [
     "files/Core Java - 03.03.02b-03.03.03a.pdf",
+    "zettelkasten/java-char-escapes.md",
+    "zettelkasten/java-char-type.md",
     "zettelkasten/java-floating-point-types.md",
+    "zettelkasten/java-code-point.md",
+    "files/Core Java - 03.03.03b.pdf",
     "zettelkasten/java-floating-point-literals.md",
     "zettelkasten/java-floating-point-infinity.md",
     "zettelkasten/java-floating-point-nan.md",
-    "zettelkasten/java-integer-literals.md",
-    "files/Core Java - 03.03.01b-03.03.02a.pdf",
-    "zettelkasten/java-integral-types.md",
-    "zettelkasten/java-signed-as-unsigned.md",
-    "zettelkasten/java-floating-point-math-different-results.md"
+    "zettelkasten/java-integer-literals.md"
   ]
 }
