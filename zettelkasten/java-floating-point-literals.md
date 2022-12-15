@@ -13,7 +13,9 @@ If you want to be explicit about the fact that a number is a `double`, you can s
 Exponential form literals use `E` or `e` to denote the decimal exponent, e.g. `2.99792458e8` is 2.99792458 x 10^8.
 
 ## Hexadecimal floating point literals
-Floating point literals can also be written in hexadecimal using exponential form, though the exponent is still in base-10, e.g. 2^-3 can be written as `0x1.0p-3`. Note that instead of `E` or `e` before the exponent, we use `P` or `p` since `E`  and `e` is a hexadecimal digit.
+Floating point literals can also be written in hexadecimal using exponential form, though the exponent is still in base-10, e.g. 2^-3 can be written as `0x1.0p-3`. Note that instead of `E` or `e` before the exponent, we use `P` or `p` since `E`  and `e` is a hexadecimal digit. Also note that the base of the exponent is 2.
+
+**Therefore, hexadecimal floating point literals are a mixture of base-16, base-2, and base-10.**
 
 ---
 # References
