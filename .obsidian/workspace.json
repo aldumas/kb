@@ -11,11 +11,9 @@
             "id": "74b15188399f2d8d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "zettelkasten/java-floating-point-literals.md",
-                "mode": "source",
-                "source": false
+                "file": "files/Core Java - 03.03.03b.pdf"
               }
             }
           },
@@ -97,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/java-floating-point-literals.md",
+                "file": "files/Core Java - 03.03.03b.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/java-floating-point-literals.md",
+                "file": "files/Core Java - 03.03.03b.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/java-floating-point-literals.md"
+                "file": "files/Core Java - 03.03.03b.pdf"
               }
             }
           }
@@ -150,14 +148,14 @@
   "active": "74b15188399f2d8d",
   "lastOpenFiles": [
     "files/Core Java - 03.03.02b-03.03.03a.pdf",
-    "zettelkasten/java-floating-point-literals.md",
-    "zettelkasten/java-integer-literals.md",
     "zettelkasten/java-floating-point-types.md",
+    "zettelkasten/java-floating-point-literals.md",
+    "zettelkasten/java-floating-point-infinity.md",
+    "zettelkasten/java-floating-point-nan.md",
+    "zettelkasten/java-integer-literals.md",
     "files/Core Java - 03.03.01b-03.03.02a.pdf",
     "zettelkasten/java-integral-types.md",
     "zettelkasten/java-signed-as-unsigned.md",
-    "zettelkasten/java-floating-point-math-different-results.md",
-    "zettelkasten/java-compiling-programs.md",
-    "zettelkasten/java-package-directory-requirement.md"
+    "zettelkasten/java-floating-point-math-different-results.md"
   ]
 }

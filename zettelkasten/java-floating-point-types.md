@@ -17,8 +17,11 @@ Also read about [[java-floating-point-literals|floating point literals]].
 
 Be aware that [[java-floating-point-math-different-results|floating point math might not produce the same results]] across machines.
 
+#advice For calculations which require exact results without floating point roundoff, use `BigDecimal`.
+
 ---
 # References
 
 [[Core Java - Volume 1#03 - Fundamental Programming Structures in Java]]
 [[Core Java - 03.03.01b-03.03.02a.pdf]]
+[[Core Java - 03.03.02b-03.03.03a.pdf]]

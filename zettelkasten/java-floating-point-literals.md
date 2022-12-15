@@ -17,6 +17,9 @@ Floating point literals can also be written in hexadecimal using exponential for
 
 **Therefore, hexadecimal floating point literals are a mixture of base-16, base-2, and base-10.**
 
+>> [!example]
+>> 40.25 can be represented as `0xa.1p2`. This is the same as (10 \* 16^0 + 1 \* 16^-1) \* 2^2.
+
 ---
 # References
 
