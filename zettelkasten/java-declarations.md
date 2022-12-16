@@ -15,6 +15,8 @@ You can also use the [[java-keyword-var|var keyword]] to declare the variable if
 
 Java supports [[java-multiple-declarations|multiple declarations]] in a single statement.
 
+You can declare a local variable anywhere in a method (not just the beginning of a block), but it is best practice to declare it nearest where it is used, and preferably not until a useful initialization value is available.
+
 ---
 References:
 
