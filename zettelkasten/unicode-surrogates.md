@@ -15,6 +15,8 @@ In UTF-16, two code points are used to encode each Supplementary Character. The 
 
 See [Wikipedia UTF-16](https://en.wikipedia.org/wiki/UTF-16).
 
+One of the benefits of this scheme is that, given a code unit, you can immediately tell if it is for a character, or whether it is part of encoding a Supplementary Character. It is also easy to determine which part of the Supplementary Character it is (the first or second code unit).
+
 ---
 # References
 
