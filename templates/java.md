@@ -1,6 +1,6 @@
 ---
 created-at: {{date}} {{time}}
-tags: 
+tags: java
 ---
 
 

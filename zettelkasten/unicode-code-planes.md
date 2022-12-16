@@ -10,8 +10,8 @@ Unicode is divided into 17 code planes. The first code plane is for code points 
 
 The remaining 16 code planes contain the Supplementary Characters. These code planes contain code points U+10000 - U+10FFFF.
 
->> [!note]
->> Not all of the code points in the BMP correspond to a character. Some of them are [[unicode-surrogates|reserved]] for use in encoding Supplementary Characters by combining code units.
+>[!note]
+>Not all of the code points in the BMP correspond to a character. Some of them are [[unicode-surrogates|reserved]] for use in encoding Supplementary Characters by combining code units.
 
 ---
 # References

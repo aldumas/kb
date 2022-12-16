@@ -23,9 +23,11 @@
             "id": "af9d078c5fa71da3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "files/Core Java - 03.04.01b-03.03.04.pdf"
+                "file": "zettelkasten/java-initialization.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -59,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 254.5
   },
   "right": {
     "id": "cd2dc7551dc4ecbc",
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "files/Core Java - 03.04.01b-03.03.04.pdf",
+                "file": "zettelkasten/java-initialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "files/Core Java - 03.04.01b-03.03.04.pdf",
+                "file": "zettelkasten/java-initialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,12 +138,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "files/Core Java - 03.04.01b-03.03.04.pdf"
+                "file": "zettelkasten/java-initialization.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,15 +150,15 @@
   },
   "active": "af9d078c5fa71da3",
   "lastOpenFiles": [
-    "files/Core Java - 03.03.04-03.04.01a.pdf",
-    "files/Core Java - 03.04.01b-03.03.04.pdf",
-    "zettelkasten/java-boolean-type.md",
-    "zettelkasten/java-switch.md",
+    "examples.md",
+    "zettelkasten/java-initialization.md",
+    "zettelkasten/java-initialization-arrays.md",
+    "zettelkasten/java-default-initialization.md",
+    "zettelkasten/java-floating-point-infinity.md",
+    "zettelkasten/java-integer-floating-point-division-by-zero-difference.md",
     "zettelkasten/unicode-code-planes.md",
-    "zettelkasten/java-unicode-escapes-multiple-u.md",
-    "zettelkasten/unicode-surrogates.md",
-    "zettelkasten/java-avoid-char.md",
-    "zettelkasten/git-useful-commands.md",
-    "zettelkasten/java-executing-programs.md"
+    "zettelkasten/java-floating-point-nan.md",
+    "zettelkasten/java-primitive-types.md",
+    "zettelkasten/java-casting.md"
   ]
 }

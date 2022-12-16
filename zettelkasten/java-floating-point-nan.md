@@ -9,8 +9,8 @@ Some calculations may produce a value which represents a result of an invalid ca
 
 This value is available at `Double.NaN`, though it is never used in practice.
 
->> [!caution]
->> `NaN` values are all distinct; that is, for any variable `x` which holds the special `NaN` value, `x == Double.NaN` will never be true. To check for this value, use `Double.isNaN(x)`.
+>[!caution]
+>`NaN` values are all distinct; that is, for any variable `x` which holds the special `NaN` value, `x == Double.NaN` will never be true. To check for this value, use `Double.isNaN(x)`.
 
 There are two other special floating point values which represent the concept of [[java-floating-point-infinity|infinity]].
 
