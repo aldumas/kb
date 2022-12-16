@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-14 12:21
 role: idea
-tags: 
+tags: java primitives
 ---
 
 Due to the nature of binary arithmetic, the following operations can be performed on signed integers as if they were unsigned:

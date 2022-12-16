@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-15 13:19
 role: idea
-tags: 
+tags: java unicode escapes
 ---
 
 # Any number of u's are allowed in an escape

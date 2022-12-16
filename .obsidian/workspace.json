@@ -23,15 +23,14 @@
             "id": "af9d078c5fa71da3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "zettelkasten/unicode-surrogates.md",
-                "mode": "source",
-                "source": false
+                "file": "files/Core Java - 03.04.01b-03.03.04.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "files/Core Java - 03.03.04-03.04.01a.pdf",
+                "file": "files/Core Java - 03.04.01b-03.03.04.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "files/Core Java - 03.03.04-03.04.01a.pdf",
+                "file": "files/Core Java - 03.04.01b-03.03.04.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,27 +136,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "files/Core Java - 03.03.04-03.04.01a.pdf"
+                "file": "files/Core Java - 03.04.01b-03.03.04.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "199743674550e82a",
+  "active": "af9d078c5fa71da3",
   "lastOpenFiles": [
-    "zettelkasten/unicode-surrogates.md",
     "files/Core Java - 03.03.04-03.04.01a.pdf",
-    "zettelkasten/java-char-type.md",
-    "zettelkasten/java-code-point.md",
-    "zettelkasten/unicode-code-planes.md",
-    "zettelkasten/java-unicode-escapes-before-compilation.md",
-    "files/Core Java - 03.03.03b.pdf",
-    "zettelkasten/java-numeric-promotion-rules.md",
     "files/Core Java - 03.04.01b-03.03.04.pdf",
-    "files/Core Java - 03.03.02b-03.03.03a.pdf"
+    "zettelkasten/java-boolean-type.md",
+    "zettelkasten/java-switch.md",
+    "zettelkasten/unicode-code-planes.md",
+    "zettelkasten/java-unicode-escapes-multiple-u.md",
+    "zettelkasten/unicode-surrogates.md",
+    "zettelkasten/java-avoid-char.md",
+    "zettelkasten/git-useful-commands.md",
+    "zettelkasten/java-executing-programs.md"
   ]
 }

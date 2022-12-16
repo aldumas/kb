@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-15 00:00
 role: idea
-tags: 
+tags: java unicode escapes
 ---
 
 # Character escapes

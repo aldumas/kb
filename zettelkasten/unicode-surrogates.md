@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-15 22:30
 role: idea
-tags: 
+tags: unicode
 ---
 
 # Unicode surrogates

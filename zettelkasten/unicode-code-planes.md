@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-15 20:55
 role: idea
-tags: 
+tags: unicode
 ---
 
 # Unicode code planes

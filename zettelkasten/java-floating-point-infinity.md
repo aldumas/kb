@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-14 23:14
 role: idea
-tags: 
+tags: java primitives
 ---
 
 # Positive and negative infinity

@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-14 23:44
 role: idea
-tags: 
+tags: java primitives
 ---
 
 # `char` type

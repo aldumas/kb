@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-14 13:06
 role: idea
-tags: 
+tags: java primitives
 ---
 
 # Integer literals

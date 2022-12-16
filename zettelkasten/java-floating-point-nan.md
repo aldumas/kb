@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-14 23:21
 role: idea
-tags: 
+tags: java primitives
 ---
 
 # Not a number

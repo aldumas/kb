@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-14 12:04
 role: idea
-tags: 
+tags: java primitives
 ---
 
 # Floating point literals

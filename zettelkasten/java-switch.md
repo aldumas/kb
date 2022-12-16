@@ -1,7 +1,7 @@
 ---
 created-at: 2022-12-13 09:27
 role: idea
-tags: 
+tags: java control
 ---
 
 #todo 
