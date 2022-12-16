@@ -12,6 +12,9 @@ The remaining 16 code planes contain the Supplementary Characters. These code pl
 
 A range of code points within the BMP do not correspond to any characters but are reserved for use in encoding Supplementary Characters by combining multiple code units. This range is referred to the Surrogate range/area and is divided into 2 subranges -- the high and low surrogate range.
 
+High surrogate range: U+D800 - U+DBFF
+Low surrogate range: U+DC00 - U+DFFF
+
 ---
 # References
 
