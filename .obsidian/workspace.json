@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/java-numeric-promotion-rules.md",
+                "file": "zettelkasten/unicode-code-planes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/java-numeric-promotion-rules.md",
+                "file": "zettelkasten/unicode-code-planes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/java-numeric-promotion-rules.md",
+                "file": "zettelkasten/unicode-code-planes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/java-numeric-promotion-rules.md"
+                "file": "zettelkasten/unicode-code-planes.md"
               }
             }
           }
@@ -150,15 +150,15 @@
   },
   "active": "af9d078c5fa71da3",
   "lastOpenFiles": [
-    "zettelkasten/java-unicode-escapes-before-compilation.md",
+    "zettelkasten/java-code-point.md",
+    "zettelkasten/unicode-code-planes.md",
     "files/Core Java - 03.03.04-03.04.01a.pdf",
+    "zettelkasten/java-unicode-escapes-before-compilation.md",
+    "files/Core Java - 03.03.03b.pdf",
+    "zettelkasten/java-numeric-promotion-rules.md",
     "files/Core Java - 03.04.01b-03.03.04.pdf",
     "files/Core Java - 03.03.02b-03.03.03a.pdf",
     "files/Core Java - 03.03.01b-03.03.02a.pdf",
-    "files/Core Java - 03.01-03.03.01a.pdf",
-    "files/Core Java - 03.03.03b.pdf",
-    "zettelkasten/java-char-escapes.md",
-    "zettelkasten/java-unicode-escapes-multiple-u.md",
-    "zettelkasten/java-char-type.md"
+    "files/Core Java - 03.01-03.03.01a.pdf"
   ]
 }
