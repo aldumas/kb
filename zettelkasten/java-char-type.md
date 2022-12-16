@@ -5,9 +5,11 @@ tags:
 ---
 
 # `char` type
-A `char` is a 2 byte value which represents a unicode code unit (not a [[java-code-point|code point]]) in the UTF-16 encoding. It can hold any value between `0x0000` and `0xffff`.
+A `char` is a 2 byte value which represents a unicode code unit (not a code point) in the UTF-16 encoding. It can hold any value between `0x0000` and `0xffff`.
 
-Since many characters require 2 code units to encode, you cannot rely on a single `char` to represent a character unless you know you are not dealing with characters which require 2 code units.
+Since many characters require [[unicode-surrogates|2 code units to encode]], you cannot rely on a single `char` to represent a character unless you know you are not dealing with characters which require 2 code units.
+
+Likewise, be aware that some `String` methods operate on code units, not code points. E.g. `String.length()` returns the number of code units, not code points (i.e. characters).
 
 `char` literals are surrounded by single quotes, e.g. `'a'`.
 

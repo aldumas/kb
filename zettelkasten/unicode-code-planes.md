@@ -10,10 +10,8 @@ Unicode is divided into 17 code planes. The first code plane is for code points 
 
 The remaining 16 code planes contain the Supplementary Characters. These code planes contain code points U+10000 - U+10FFFF.
 
-A range of code points within the BMP do not correspond to any characters but are reserved for use in encoding Supplementary Characters by combining multiple code units. This range is referred to the Surrogate range/area and is divided into 2 subranges -- the high and low surrogate range.
-
-High surrogate range: U+D800 - U+DBFF
-Low surrogate range: U+DC00 - U+DFFF
+>> [!note]
+>> Not all of the code points in the BMP correspond to a character. Some of them are [[unicode-surrogates|reserved]] for use in encoding Supplementary Characters by combining code units.
 
 ---
 # References
