@@ -8,26 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "199743674550e82a",
+            "id": "af9d078c5fa71da3",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "pdf",
               "state": {
-                "file": "files/Core Java - 03.03.04-03.04.01a.pdf"
+                "file": "files/Core Java - 03.04.01b-03.04.04.pdf"
               },
               "pinned": true
             }
           },
           {
-            "id": "af9d078c5fa71da3",
+            "id": "27286899f85f6466",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "zettelkasten/java-initialization.md",
-                "mode": "source",
-                "source": false
+                "file": "files/Core Java - 03.04.01b-03.04.04.pdf"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/java-initialization.md",
+                "file": "files/Core Java - 03.04.01b-03.04.04.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/java-initialization.md",
+                "file": "files/Core Java - 03.04.01b-03.04.04.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/java-initialization.md"
+                "file": "files/Core Java - 03.04.01b-03.04.04.pdf"
               }
             }
           }
@@ -148,17 +146,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "af9d078c5fa71da3",
+  "active": "27286899f85f6466",
   "lastOpenFiles": [
+    "zettelkasten/java-declarations.md",
+    "files/Core Java - 03.04.01b-03.04.04.pdf",
+    "files/Core Java - 03.03.01b-03.03.02a.pdf",
+    "files/Core Java - 03.03.04-03.04.01a.pdf",
+    "zettelkasten/java-identifiers.md",
+    "zettelkasten/().md",
+    "zettelkasten/java-initialization.md",
     "zettelkasten/java-floating-point-types.md",
     "zettelkasten/unicode-code-planes.md",
-    "zettelkasten/java-floating-point-nan.md",
-    "zettelkasten/java-primitive-types.md",
-    "zettelkasten/java-floating-point-infinity.md",
-    "zettelkasten/java-integer-floating-point-division-by-zero-difference.md",
-    "zettelkasten/java-default-initialization.md",
-    "zettelkasten/java-initialization-arrays.md",
-    "zettelkasten/java-initialization.md",
-    "zettelkasten/java-declarations.md"
+    "zettelkasten/java-floating-point-nan.md"
   ]
 }

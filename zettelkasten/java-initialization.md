@@ -36,4 +36,4 @@ When combining declaration and initialization in a single statement, you can use
 References:
 
 [[Core Java - Volume 1#03 - Fundamental Programming Structures in Java]]
-[[Core Java - 03.04.01b-03.03.04.pdf]]
+[[Core Java - 03.04.01b-03.04.04.pdf]]

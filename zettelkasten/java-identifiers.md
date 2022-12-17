@@ -8,6 +8,7 @@ Rules for identifiers:
 1. Only letters, digits, currency symbols, and punctuation connectors (e.g. underscore) are allowed.
 3. Must start with a letter or underscore.
 4. A single underscore is not allowed.
+5. Java keywords and other [reserved words](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html) are not allowed (e.g. `const`).
 
 The dollar sign currency symbol is technically allowed in identifiers but is reserved for compiler-generated names.
 

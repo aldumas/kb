@@ -17,8 +17,11 @@ Java supports [[java-multiple-declarations|multiple declarations]] in a single s
 
 You can declare a local variable anywhere in a method (not just the beginning of a block), but it is best practice to declare it nearest where it is used, and preferably not until a useful initialization value is available.
 
+In some languages, there's a distinction between declarations and definitions (the point where memory is set aside for the variable). Java does not have this distinction.
+
 ---
 References:
 
 [[Core Java - Volume 1#03 - Fundamental Programming Structures in Java]]
-[[Core Java - 03.04.01b-03.03.04.pdf]]
+[[Core Java - 03.04.01b-03.04.04.pdf]]
+[[Core Java - 03.04.01b-03.04.04.pdf]]
