@@ -150,15 +150,15 @@
   },
   "active": "af9d078c5fa71da3",
   "lastOpenFiles": [
-    "zettelkasten/java-declarations.md",
-    "zettelkasten/java-initialization.md",
-    "examples.md",
-    "zettelkasten/java-initialization-arrays.md",
-    "zettelkasten/java-default-initialization.md",
-    "zettelkasten/java-floating-point-infinity.md",
-    "zettelkasten/java-integer-floating-point-division-by-zero-difference.md",
+    "zettelkasten/java-floating-point-types.md",
     "zettelkasten/unicode-code-planes.md",
     "zettelkasten/java-floating-point-nan.md",
-    "zettelkasten/java-primitive-types.md"
+    "zettelkasten/java-primitive-types.md",
+    "zettelkasten/java-floating-point-infinity.md",
+    "zettelkasten/java-integer-floating-point-division-by-zero-difference.md",
+    "zettelkasten/java-default-initialization.md",
+    "zettelkasten/java-initialization-arrays.md",
+    "zettelkasten/java-initialization.md",
+    "zettelkasten/java-declarations.md"
   ]
 }

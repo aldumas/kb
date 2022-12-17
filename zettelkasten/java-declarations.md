@@ -20,5 +20,5 @@ You can declare a local variable anywhere in a method (not just the beginning of
 ---
 References:
 
-
-
+[[Core Java - Volume 1#03 - Fundamental Programming Structures in Java]]
+[[Core Java - 03.04.01b-03.03.04.pdf]]
