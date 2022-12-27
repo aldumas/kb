@@ -23,9 +23,11 @@
             "id": "27286899f85f6466",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "files/Core Java - 03.04.01b-03.04.04.pdf"
+                "file": "zettelkasten/java-unicode-escapes-before-compilation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "files/Core Java - 03.04.01b-03.04.04.pdf",
+                "file": "zettelkasten/java-unicode-escapes-before-compilation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "files/Core Java - 03.04.01b-03.04.04.pdf",
+                "file": "zettelkasten/java-unicode-escapes-before-compilation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "files/Core Java - 03.04.01b-03.04.04.pdf"
+                "file": "zettelkasten/java-unicode-escapes-before-compilation.md"
               }
             }
           }
@@ -158,15 +160,15 @@
   },
   "active": "27286899f85f6466",
   "lastOpenFiles": [
-    "zettelkasten/java-declarations.md",
+    "zettelkasten/java-char-escapes.md",
+    "zettelkasten/java-unicode-escapes-multiple-u.md",
+    "zettelkasten/unicode-code-planes.md",
     "files/Core Java - 03.04.01b-03.04.04.pdf",
+    "zettelkasten/java-declarations.md",
     "files/Core Java - 03.03.01b-03.03.02a.pdf",
     "files/Core Java - 03.03.04-03.04.01a.pdf",
     "zettelkasten/java-identifiers.md",
     "zettelkasten/().md",
-    "zettelkasten/java-initialization.md",
-    "zettelkasten/java-floating-point-types.md",
-    "zettelkasten/unicode-code-planes.md",
-    "zettelkasten/java-floating-point-nan.md"
+    "zettelkasten/java-initialization.md"
   ]
 }
