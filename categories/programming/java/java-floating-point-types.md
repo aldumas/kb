@@ -13,7 +13,7 @@ tags: java primitives
 
 #advice Use `double` unless you have a specific reason to use `float`, like if you are working with a library that uses them, or you need to store a lot of floating point values and don't need the extra precision.
 
-Also read about [[java-floating-point-literals|floating point literals]].
+Also read about [[floating-point-literals|floating point literals]].
 
 Be aware that [[java-floating-point-math-different-results|floating point math might not produce the same results]] across machines.
 
