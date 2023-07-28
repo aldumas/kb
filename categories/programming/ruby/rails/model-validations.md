@@ -1,6 +1,6 @@
 ---
 created-at: 2023-07-28 09:20
-tags: ruby rails
+tags: ruby, rails
 ---
 
 ```ruby

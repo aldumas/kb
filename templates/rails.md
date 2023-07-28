@@ -1,6 +1,6 @@
 ---
 created-at: {{date}} {{time}}
-tags: ruby rails
+tags: ruby, rails
 ---
 
 

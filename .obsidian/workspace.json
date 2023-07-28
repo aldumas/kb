@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "categories/programming/ruby/implicit-begin.md",
+                "file": "categories/programming/ruby/rails/model-validations.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "categories/programming/ruby/implicit-begin.md",
+                "file": "categories/programming/ruby/rails/model-validations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "categories/programming/ruby/implicit-begin.md",
+                "file": "categories/programming/ruby/rails/model-validations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "categories/programming/ruby/implicit-begin.md"
+                "file": "categories/programming/ruby/rails/model-validations.md"
               }
             }
           }
@@ -155,14 +155,14 @@
   },
   "active": "27286899f85f6466",
   "lastOpenFiles": [
-    "files/Core Java - 03.04.01b-03.04.04.pdf",
-    "categories/programming/ruby/implicit-begin.md",
+    "templates/rails.md",
     "categories/programming/ruby/rails/model-validations.md",
+    "categories/programming/ruby/implicit-begin.md",
+    "files/Core Java - 03.04.01b-03.04.04.pdf",
     "categories/programming/ruby/rails/Untitled.md",
     "categories/programming/docker/shell-in-running-docker-container.md",
     "templates/docker.md",
     "templates/ruby.md",
-    "templates/rails.md",
     "categories/programming/docker",
     "Untitled.md",
     "templates/java.md",
