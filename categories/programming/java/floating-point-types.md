@@ -15,7 +15,7 @@ tags: java primitives
 
 Also read about [[floating-point-literals|floating point literals]].
 
-Be aware that [[java-floating-point-math-different-results|floating point math might not produce the same results]] across machines.
+Be aware that [[floating-point-math-different-results|floating point math might not produce the same results]] across machines.
 
 #advice For calculations which require exact results without floating point roundoff, use `BigDecimal`.
 

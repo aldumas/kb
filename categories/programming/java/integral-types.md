@@ -17,9 +17,9 @@ These sizes and ranges are fixed by the language spec and are therefore not mach
 
 #advice Use int unless you have a specific reason to use one of the others.
 
-Though these types are all signed, it is possible to [[java-signed-as-unsigned|work with them as unsigned]].
+Though these types are all signed, it is possible to [[signed-as-unsigned|work with them as unsigned]].
 
-Also read about [[java-integer-literals|integer literals]].
+Also read about [[integer-literals|integer literals]].
 
 ---
 # References

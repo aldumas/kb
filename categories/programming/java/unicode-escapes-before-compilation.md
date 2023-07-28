@@ -6,7 +6,7 @@ tags: java unicode escapes
 
 # Unicode escapes processing time
 
-Unicode [[java-char-escapes|escapes]] are processed prior to compilation. This has some important ramifications.
+Unicode [[char-escapes|escapes]] are processed prior to compilation. This has some important ramifications.
 
 ## Unicode escapes are allowed in program text
 
@@ -33,7 +33,7 @@ public class Example {
 
 This is because the \\u0022 (quotation marks) escapes are processed prior to compilation and essentially replaced with \" and then the whole file is compiled.
 
-## Unicode escapes are even processed in [[java-comments|comments]]
+## Unicode escapes are even processed in [[comments|comments]]
 
 ```java
 public class Example {

@@ -3,7 +3,7 @@ created-at: 2022-12-16 09:19
 tags: java
 ---
 
-Before you can use a variable, you must declare and [[java-initialization|initialize]] it.
+Before you can use a variable, you must declare and [[initialization|initialize]] it.
 
 To declare a variable, you list the type and variable name. E.g.
 
@@ -11,9 +11,9 @@ To declare a variable, you list the type and variable name. E.g.
 int age;
 ```
 
-You can also use the [[java-keyword-var|var keyword]] to declare the variable if you initialize it in the same statement.
+You can also use the [[keyword-var|var keyword]] to declare the variable if you initialize it in the same statement.
 
-Java supports [[java-multiple-declarations|multiple declarations]] in a single statement.
+Java supports [[multiple-declarations|multiple declarations]] in a single statement.
 
 You can declare a local variable anywhere in a method (not just the beginning of a block), but it is best practice to declare it nearest where it is used, and preferably not until a useful initialization value is available.
 

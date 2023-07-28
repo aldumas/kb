@@ -4,9 +4,9 @@ role: idea
 tags: implicit coercion conversion
 ---
 
-Java will implicitly convert (coerce) numeric values in the following instances. Note that these coercions *will only take place if there is no loss of information*. In cases where there is a potential loss of information, you will need to perform an explicit [[java-casting|cast]].
+Java will implicitly convert (coerce) numeric values in the following instances. Note that these coercions *will only take place if there is no loss of information*. In cases where there is a potential loss of information, you will need to perform an explicit [[casting|cast]].
 
-1. When values of different types are [[java-numeric-promotion-rules|combined in an expression]] containing a binary operator.
+1. When values of different types are [[numeric-promotion-rules|combined in an expression]] containing a binary operator.
 2. When passed as a parameter to a method call where the parameter is defined as a different type. #todo 
 3. When returned from a method defined with a different return type. #todo
 4. #todo

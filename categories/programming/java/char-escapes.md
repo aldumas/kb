@@ -19,7 +19,7 @@ Java supports the following escapes:
 | `\\`       | backslash                                                   | `string` or `char` literals or text blocks |
 | `\s`       | space (preserve trailing space)                             | text blocks                                |
 | `\newline` | newline (skip newline)                                      | text blocks                                |
-| `\uXXXX`   | [[java-unicode-escapes-before-compilation\|unicode escape]] | anywhere in program text                   |
+| `\uXXXX`   | [[unicode-escapes-before-compilation|unicode escape]] | anywhere in program text                   |
 
 
 ---

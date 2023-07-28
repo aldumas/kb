@@ -26,11 +26,11 @@ int x;
 System.out.println(x); // ERROR
 ```
 
-The compiler automatically initializes fields of objects and array elements to [[java-default-initialization|default values]], so it is not an error to use one of these without explicitly initializing it (but not recommended).
+The compiler automatically initializes fields of objects and array elements to [[default-initialization|default values]], so it is not an error to use one of these without explicitly initializing it (but not recommended).
 
-Arrays have a special [[java-initialization-arrays|initialization]] syntax.
+Arrays have a special [[initialization-arrays|initialization]] syntax.
 
-When combining declaration and initialization in a single statement, you can use the [[java-keyword-var|var keyword]].
+When combining declaration and initialization in a single statement, you can use the [[keyword-var|var keyword]].
 
 ---
 References:

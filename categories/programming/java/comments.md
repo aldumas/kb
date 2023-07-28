@@ -18,7 +18,7 @@ There are 3 styles of comments:
  */
 ```
 
-Note the caveat about [[java-unicode-escapes-before-compilation|when unicode escapes are processed]].
+Note the caveat about [[unicode-escapes-before-compilation|when unicode escapes are processed]].
 
 ---
 # References

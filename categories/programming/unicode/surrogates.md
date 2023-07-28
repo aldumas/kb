@@ -6,7 +6,7 @@ tags: unicode
 
 # Unicode surrogates
 
-A range of code points within the [[unicode-code-planes|Basic Multilingual Plane]] do not correspond to any characters but are reserved for use in encoding Supplementary Characters by combining multiple code units. This range is referred to the Surrogate range/area and is divided into 2 subranges -- the high and low surrogate range.
+A range of code points within the [[code-planes|Basic Multilingual Plane]] do not correspond to any characters but are reserved for use in encoding Supplementary Characters by combining multiple code units. This range is referred to the Surrogate range/area and is divided into 2 subranges -- the high and low surrogate range.
 
 High surrogate range: U+D800 - U+DBFF
 Low surrogate range: U+DC00 - U+DFFF

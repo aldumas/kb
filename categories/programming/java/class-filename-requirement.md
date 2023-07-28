@@ -6,9 +6,9 @@ tags: java
 
 The base filename must match the name of a `public` class in the file. There can be other non-`public` classes inside the file but no other `public` ones. This is used by the `javac` and `java` executables in order to find and process / load classes.
 
-The file must live in a [[java-package-directory-requirement|directory corresponding to its package]].
+The file must live in a [[package-directory-requirement|directory corresponding to its package]].
 
-See [[java-compiling-programs]] and [[java-executing-programs]].
+See [[compiling-programs]] and [[executing-programs]].
 
 ---
 # References

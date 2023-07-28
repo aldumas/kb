@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "af9d078c5fa71da3",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "files/Core Java - 03.04.01b-03.04.04.pdf"
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "27286899f85f6466",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "categories/programming/java/java-floating-point-literals.md",
+                "file": "categories/programming/ruby/implicit-begin.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -90,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 247.5
   },
   "right": {
     "id": "cd2dc7551dc4ecbc",
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "categories/programming/java/java-floating-point-literals.md",
+                "file": "categories/programming/ruby/implicit-begin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "categories/programming/java/java-floating-point-literals.md",
+                "file": "categories/programming/ruby/implicit-begin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "categories/programming/java/java-floating-point-literals.md"
+                "file": "categories/programming/ruby/implicit-begin.md"
               }
             }
           }
@@ -166,35 +153,42 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ebb925963bf15bbd",
+  "active": "27286899f85f6466",
   "lastOpenFiles": [
-    "categories/programming/java/java-floating-point-types.md",
-    "categories/programming/java/java-floating-point-literals.md",
-    "categories/programming/kotlin/kotlin-idiom-takeIf-over-else-null.md",
-    "categories/programming/kotlin/kotlin-map.getOrDefault-to-avoid-control-structure.md",
-    "categories/programming/java/java-casting.md",
-    "categories/programming/java/java-unicode-escapes-before-compilation.md",
-    "categories/programming/java/java-integral-types.md",
-    "categories/programming/java/java-char-escapes.md",
-    "categories/programming/java/java-floating-point-nan.md",
-    "categories/programming/java/java-default-initialization.md",
-    "categories/programming/java/java-switch.md",
-    "categories/programming/java/java-links.md",
-    "categories/programming/java/java-boolean-type.md",
+    "files/Core Java - 03.04.01b-03.04.04.pdf",
+    "categories/programming/ruby/implicit-begin.md",
+    "categories/programming/ruby/rails/model-validations.md",
+    "categories/programming/ruby/rails/Untitled.md",
+    "categories/programming/docker/shell-in-running-docker-container.md",
+    "templates/docker.md",
+    "templates/ruby.md",
+    "templates/rails.md",
+    "categories/programming/docker",
+    "Untitled.md",
+    "templates/java.md",
+    "templates/zettel.md",
+    "categories/programming/ruby/rails",
+    "categories/programming/ruby",
+    "references/Core Java - Volume 1.md",
+    "categories/programming/java/primitive-types.md",
+    "categories/programming/java/floating-point-nan.md",
+    "categories/programming/unicode/surrogates.md",
+    "categories/programming/unicode/code-planes.md",
+    "categories/programming/kotlin/idiom-takeIf-over-else-null.md",
+    "categories/programming/kotlin/map.getOrDefault-to-avoid-control-structure.md",
+    "categories/programming/java/casting.md",
+    "categories/programming/java/boolean-type.md",
+    "categories/programming/java/avoid-char.md",
+    "categories/programming/java/integer-floating-point-division-by-zero-difference.md",
+    "categories/programming/java/initialization-arrays.md",
+    "categories/programming/java/identifiers.md",
+    "categories/programming/java/floating-point-math-different-results.md",
+    "categories/programming/java/default-initialization.md",
     "categories/programming/git",
-    "categories/programming/java/java-char-type.md",
-    "categories/programming/java/java-unicode-escapes-multiple-u.md",
-    "categories/programming/unicode/unicode-code-planes.md",
     "categories/programming/kotlin",
     "categories/programming/unicode",
     "categories/programming/java",
     "categories/programming",
-    "files/Core Java - 03.04.01b-03.04.04.pdf",
-    "categories/programming/java/java-declarations.md",
-    "files/Core Java - 03.03.01b-03.03.02a.pdf",
-    "files/Core Java - 03.03.04-03.04.01a.pdf",
-    "categories/programming/java/java-identifiers.md",
-    "zettelkasten/().md",
-    "categories/programming/java/java-initialization.md"
+    "files/Core Java - 03.03.01b-03.03.02a.pdf"
   ]
 }
