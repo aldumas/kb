@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "categories/programming/ruby/do-not-inherit-from-exception.md",
+                "file": "categories/programming/ruby/do-not-rescue-exception.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "categories/programming/ruby/do-not-inherit-from-exception.md",
+                "file": "categories/programming/ruby/do-not-rescue-exception.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "categories/programming/ruby/do-not-inherit-from-exception.md",
+                "file": "categories/programming/ruby/do-not-rescue-exception.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "categories/programming/ruby/do-not-inherit-from-exception.md"
+                "file": "categories/programming/ruby/do-not-rescue-exception.md"
               }
             }
           }
@@ -166,10 +166,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ebb925963bf15bbd",
+  "active": "371f8c6c7b69cc5e",
   "lastOpenFiles": [
     "categories/programming/ruby/implicit-begin.md",
-    "categories/programming/ruby/do-not-inherit-from-exception.md",
+    "categories/programming/ruby/do-not-rescue-exception.md",
     "categories/programming/ruby/Untitled.md",
     "categories/programming/ruby/rails/model-validations.md",
     "templates/rails.md",
