@@ -14,4 +14,5 @@ For most cases, you want to rescue `StandardError` if you want to rescue all exc
 References:
 
 https://rollbar.com/guides/ruby/how-to-handle-exceptions-in-ruby/
+https://rollbar.com/guides/ruby/how-to-raise-exceptions-in-ruby/
 https://www.honeybadger.io/blog/understanding-the-ruby-exception-hierarchy/
