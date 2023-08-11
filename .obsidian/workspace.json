@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "categories/programming/ruby/do-not-rescue-exception.md",
+                "file": "templates/docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "categories/programming/ruby/do-not-rescue-exception.md",
+                "file": "templates/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "categories/programming/ruby/do-not-rescue-exception.md",
+                "file": "templates/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "categories/programming/ruby/do-not-rescue-exception.md"
+                "file": "templates/docker.md"
               }
             }
           }
@@ -168,8 +168,11 @@
   },
   "active": "371f8c6c7b69cc5e",
   "lastOpenFiles": [
-    "categories/programming/ruby/implicit-begin.md",
     "categories/programming/ruby/do-not-rescue-exception.md",
+    "templates/ruby.md",
+    "templates/ruby.md.template",
+    "Untitled.md",
+    "categories/programming/ruby/implicit-begin.md",
     "categories/programming/ruby/Untitled.md",
     "categories/programming/ruby/rails/model-validations.md",
     "templates/rails.md",
@@ -177,7 +180,6 @@
     "categories/programming/ruby/rails/Untitled.md",
     "categories/programming/docker/shell-in-running-docker-container.md",
     "templates/docker.md",
-    "templates/ruby.md",
     "categories/programming/docker",
     "templates/java.md",
     "templates/zettel.md",
@@ -196,13 +198,10 @@
     "categories/programming/java/integer-floating-point-division-by-zero-difference.md",
     "categories/programming/java/initialization-arrays.md",
     "categories/programming/java/identifiers.md",
-    "categories/programming/java/floating-point-math-different-results.md",
-    "categories/programming/java/default-initialization.md",
     "categories/programming/git",
     "categories/programming/kotlin",
     "categories/programming/unicode",
     "categories/programming/java",
-    "categories/programming",
-    "files/Core Java - 03.03.01b-03.03.02a.pdf"
+    "categories/programming"
   ]
 }
