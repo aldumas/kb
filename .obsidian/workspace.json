@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6a38ae7273d73f4e",
+        "id": "bec7f6cb1fbca579",
         "type": "tabs",
         "children": [
           {
-            "id": "27286899f85f6466",
+            "id": "550b673ea88f773a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "categories/programming/ruby/implicit-begin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "371f8c6c7b69cc5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/docker.md",
+                "file": "ruby/topics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/docker.md",
+                "file": "ruby/topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/docker.md",
+                "file": "ruby/topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/docker.md"
+                "file": "ruby/topics.md"
               }
             }
           }
@@ -166,42 +153,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "371f8c6c7b69cc5e",
+  "active": "550b673ea88f773a",
   "lastOpenFiles": [
-    "categories/programming/ruby/do-not-rescue-exception.md",
-    "templates/ruby.md",
+    "examples.md",
+    "ruby/topics.md",
+    "data/templates/docker.md",
+    "data",
+    "categories/programming/ruby/ruby-topics.md",
+    "ruby-topics.md",
+    "data/templates/ruby.md",
+    "ruby/do-not-rescue-exception.md",
     "templates/ruby.md.template",
     "Untitled.md",
-    "categories/programming/ruby/implicit-begin.md",
+    "ruby/implicit-begin.md",
     "categories/programming/ruby/Untitled.md",
-    "categories/programming/ruby/rails/model-validations.md",
-    "templates/rails.md",
-    "files/Core Java - 03.04.01b-03.04.04.pdf",
+    "rails/model-validations.md",
+    "data/templates/rails.md",
+    "data/files/Core Java - 03.04.01b-03.04.04.pdf",
     "categories/programming/ruby/rails/Untitled.md",
-    "categories/programming/docker/shell-in-running-docker-container.md",
-    "templates/docker.md",
-    "categories/programming/docker",
-    "templates/java.md",
+    "docker/shell-in-running-docker-container.md",
+    "docker",
+    "data/templates/java.md",
     "templates/zettel.md",
-    "categories/programming/ruby/rails",
-    "categories/programming/ruby",
-    "references/Core Java - Volume 1.md",
-    "categories/programming/java/primitive-types.md",
-    "categories/programming/java/floating-point-nan.md",
-    "categories/programming/unicode/surrogates.md",
-    "categories/programming/unicode/code-planes.md",
-    "categories/programming/kotlin/idiom-takeIf-over-else-null.md",
-    "categories/programming/kotlin/map.getOrDefault-to-avoid-control-structure.md",
-    "categories/programming/java/casting.md",
-    "categories/programming/java/boolean-type.md",
-    "categories/programming/java/avoid-char.md",
-    "categories/programming/java/integer-floating-point-division-by-zero-difference.md",
-    "categories/programming/java/initialization-arrays.md",
-    "categories/programming/java/identifiers.md",
-    "categories/programming/git",
-    "categories/programming/kotlin",
-    "categories/programming/unicode",
-    "categories/programming/java",
-    "categories/programming"
+    "rails",
+    "ruby",
+    "data/references/Core Java - Volume 1.md",
+    "java/primitive-types.md",
+    "java/floating-point-nan.md",
+    "unicode/surrogates.md",
+    "unicode/code-planes.md",
+    "kotlin/idiom-takeIf-over-else-null.md",
+    "kotlin/map.getOrDefault-to-avoid-control-structure.md",
+    "java/casting.md",
+    "java/boolean-type.md",
+    "java/avoid-char.md",
+    "git",
+    "kotlin",
+    "unicode",
+    "java"
   ]
 }
