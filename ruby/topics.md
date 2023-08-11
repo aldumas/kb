@@ -31,6 +31,8 @@ value || raise does not work syntactically, but you can wrap the raise in a meth
 
 C code
 
+memoization ||= vs ||= lambda {...}.call
+
 ---
 References:
 
