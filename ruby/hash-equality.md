@@ -5,6 +5,9 @@ tags: ruby
 
 There's a special form of equality that lies in between the strict [reference equality](ruby/reference-equality.md) provided by `equal?` and the flexible [value equality](ruby/value-equality.md) provided by `==`. This is implemented in the `eql?` method, which I am referring to as *hash equality*.
 
+>[!Note]
+>`eql?` is used for more than just hash table lookups. It is also used by methods like `Array#uniq` and `Array#union` to determine if values exist in the collection. So perhaps *hash equality* is not a good name. Regardless, it just represents a strong definition of equality but which does not require the objects to be the same object in memory.
+
 When searching for a key in a hash map, the hash map implementation must:
 1. Find the place to look for the keys, the bucket. It does this using the provided key's `hash` method.
 2. Examine all the keys in the bucket and determine if any are equal to the provided key. It needs to do this because different objects of different types could all map to the same bucket.
