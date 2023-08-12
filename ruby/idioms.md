@@ -13,7 +13,7 @@ animals |= ["bear"] # uses union operator, equality is checked with eql?
 
 ---
 
-Set a value if it has not been set, returning the result regardless:
+Lazy load a property on first use:
 
 ```ruby
 def property
@@ -21,11 +21,11 @@ def property
 end
 ```
 
-If you don't want to define `expensive_calculation` as a method, you can embed it in a lambda and immediately call it:
+If you don't want to define `expensive_calculation` as a method, you can embed the logic in a lambda and immediately call it:
 
 ```ruby
 def property
-	@property ||= lambda { 
+	@property ||= lambda { ... code returning computed property ... }.call
 end
 ```
 
