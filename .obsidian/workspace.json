@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 200
   },
   "right": {
     "id": "cd2dc7551dc4ecbc",
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,15 +157,15 @@
   },
   "active": "8967819363d5798a",
   "lastOpenFiles": [
-    "ruby/class-variables-vs-class-instance-variables.md",
+    "examples.md",
     "ruby/variable-scope-and-control-structures.md",
+    "ruby/class-variables-vs-class-instance-variables.md",
     "ruby/idioms.md",
     "ruby/hash-equality.md",
     "ruby/value-equality.md",
     "ruby/reference-equality.md",
     "reference equality.md",
     "ruby/topics.md",
-    "examples.md",
     "data/templates/docker.md",
     "data",
     "categories/programming/ruby/ruby-topics.md",
