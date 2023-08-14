@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/variable-scope-and-control-structures.md",
+                "file": "ruby/when-to-use-kernel-conversion-functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/variable-scope-and-control-structures.md",
+                "file": "ruby/when-to-use-kernel-conversion-functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/variable-scope-and-control-structures.md",
+                "file": "ruby/when-to-use-kernel-conversion-functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/variable-scope-and-control-structures.md"
+                "file": "ruby/when-to-use-kernel-conversion-functions.md"
               }
             }
           }
@@ -155,10 +155,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8967819363d5798a",
+  "active": "ebb925963bf15bbd",
   "lastOpenFiles": [
-    "examples.md",
     "ruby/variable-scope-and-control-structures.md",
+    "ruby/when-to-use-kernel-conversion-functions.md",
+    "examples.md",
     "ruby/class-variables-vs-class-instance-variables.md",
     "ruby/idioms.md",
     "ruby/hash-equality.md",
@@ -188,7 +189,6 @@
     "ruby",
     "data/references/Core Java - Volume 1.md",
     "java/primitive-types.md",
-    "java/floating-point-nan.md",
     "git",
     "kotlin",
     "unicode",
