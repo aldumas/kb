@@ -33,9 +33,11 @@ C code
 
 memoization ||= vs ||= lambda {...}.call
 
-implicit conversion - when does it happen?
+implicit conversion - when does it happen? https://docs.ruby-lang.org/en/3.0/implicit_conversion_rdoc.html#:~:text=README.win32-,Implicit%20Conversions,called%20method%20converts%20the%20object. It seems like it's just that the callee expects a certain method that has no input and a restricted output. What is the distinction with explicit conversions? Is it that the caller does explicit conversions while the callee does the implicit ones? It seems like this works with those Kernel methods, e.g. to create an Array using functions which test for to_ary first and to_a second. Those functions tend to try "implicit conversion" first and then "explicit conversion".
 
 implicit vs explicit conversion methods, e.g. to_s vs to_str, to_i vs to_int, etc. Checking presence of implicit conversion methods for duck typing???
+
+guaging code - how well does it express the idea?
 
 ---
 References:
