@@ -33,6 +33,10 @@ C code
 
 memoization ||= vs ||= lambda {...}.call
 
+implicit conversion - when does it happen?
+
+implicit vs explicit conversion methods, e.g. to_s vs to_str, to_i vs to_int, etc. Checking presence of implicit conversion methods for duck typing???
+
 ---
 References:
 
