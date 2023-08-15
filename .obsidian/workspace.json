@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/topics.md",
+                "file": "ruby/hash-equality.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/topics.md",
+                "file": "ruby/hash-equality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/topics.md",
+                "file": "ruby/hash-equality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/topics.md"
+                "file": "ruby/hash-equality.md"
               }
             }
           }
@@ -157,22 +157,22 @@
   },
   "active": "8967819363d5798a",
   "lastOpenFiles": [
-    "ruby/when-to-use-kernel-conversion-functions.md",
-    "ruby/topics.md",
-    "ruby/variable-scope-and-control-structures.md",
-    "examples.md",
+    "ruby/do-not-rescue-exception.md",
     "ruby/class-variables-vs-class-instance-variables.md",
-    "ruby/idioms.md",
     "ruby/hash-equality.md",
-    "ruby/value-equality.md",
     "ruby/reference-equality.md",
+    "ruby/when-to-use-kernel-conversion-functions.md",
+    "ruby/variable-scope-and-control-structures.md",
+    "ruby/topics.md",
+    "examples.md",
+    "ruby/idioms.md",
+    "ruby/value-equality.md",
     "reference equality.md",
     "data/templates/docker.md",
     "data",
     "categories/programming/ruby/ruby-topics.md",
     "ruby-topics.md",
     "data/templates/ruby.md",
-    "ruby/do-not-rescue-exception.md",
     "templates/ruby.md.template",
     "Untitled.md",
     "ruby/implicit-begin.md",
