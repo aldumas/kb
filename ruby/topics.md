@@ -37,7 +37,9 @@ implicit conversion - when does it happen? https://docs.ruby-lang.org/en/master/
 
 implicit vs explicit conversion methods, e.g. to_s vs to_str, to_i vs to_int, etc. Checking presence of implicit conversion methods for duck typing???
 
-guaging code - how well does it express the idea?
+gauging code - how well does it express the idea?
+
+How can you set self for code that runs in a passed-in block? E.g. execute { a_method }, how to set self for the self.a_method call.
 
 ---
 References:
