@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/topics.md",
+                "file": "ruby/idioms.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/topics.md",
+                "file": "ruby/idioms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/topics.md",
+                "file": "ruby/idioms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/topics.md"
+                "file": "ruby/idioms.md"
               }
             }
           }
@@ -157,13 +157,13 @@
   },
   "active": "8967819363d5798a",
   "lastOpenFiles": [
+    "ruby/topics.md",
     "ruby/hash-equality.md",
     "ruby/do-not-rescue-exception.md",
     "ruby/class-variables-vs-class-instance-variables.md",
     "ruby/reference-equality.md",
     "ruby/when-to-use-kernel-conversion-functions.md",
     "ruby/variable-scope-and-control-structures.md",
-    "ruby/topics.md",
     "examples.md",
     "ruby/idioms.md",
     "ruby/value-equality.md",
