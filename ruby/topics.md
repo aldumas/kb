@@ -45,6 +45,16 @@ Recipes:
 - Creation
 	- Create an array of n objects
 
+
+Why use each_with_object instead of just using a closure?
+
+Struct
+- each_pair
+
+
+Tricks
+- How to find where a method is coming from: puts obj.method(:method_name).owner. Also class. See what happens if it's a module method, singleton_class method.
+
 ---
 References:
 
