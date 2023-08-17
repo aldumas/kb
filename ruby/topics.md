@@ -41,6 +41,10 @@ gauging code - how well does it express the idea?
 
 How can you set self for code that runs in a passed-in block? E.g. execute { a_method }, how to set self for the self.a_method call.
 
+Recipes:
+- Creation
+	- Create an array of n objects
+
 ---
 References:
 
