@@ -11,6 +11,10 @@ The `Enumerable` class provides methods for working with collections that can be
 - Range
 - Enumerator
 
+
+
+
+
 To enable your own class to support all the `Enumerable` methods, you need to:
 1. include the `Enumerable` module in your class
 2. define an `each` method
