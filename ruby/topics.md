@@ -21,7 +21,40 @@ Lazy evaluation (does Ruby have something like Kotlin sequences?
 
 Idioms
 
-Variable assignment vs defining methods
+Variable assignment vs defining methods... Are variable assignments really a sort of memoization? Which syntax is better?
+
+```ruby
+class Foo
+	def compute
+		some_value = calculate_value
+
+		do_something(some_value)
+		do_something_else(some_value)
+	end
+
+	def calculate_value
+		...
+	end
+
+	...
+end
+```
+
+```ruby
+class Foo
+	def compute
+		do_something(some_value)
+		do_something_else(some_value)
+	end
+
+	def some_value
+		@some_value ||= calculate_value
+	end
+end
+```
+
+The second one seems best when `calculate_value` is based on inputs that don't change.
+TODO compare/contrast when values are computed... when would you want to recompute a value?
 
 Singleton classes
 
