@@ -18,14 +18,52 @@ Here are some commonly used methods in `Enumerable`:
 - select (or filter)
 - reject
 - reduce (or inject)
-- find (or detect)
+- find (or detect)/find_all
 - any?
 - all?
 - none?
-- sort
+- sort/sort_by
 - zip
 - count
 
+Other methods I want to look into:
+
+- chain
+- chunk/chunk_while
+- collect/collect_concat
+- compact
+- cycle
+- drop/drop_while
+- each_cons
+- each_entry
+- each_slice
+- each_with_index
+- each_with_object
+- entries
+- find_index
+- filter_map
+- first
+- flat_map
+- grep/grep_v
+- group_by
+- include?
+- lazy
+- min/min_by
+- max/max_by
+- member? (how is this different than include?)
+- minmax/minmax_by
+- one?
+- partition
+- reverse_each
+- slice_after/slice_before/slice_when
+- sum
+- take/take_while
+- tally
+- to_a
+- to_h
+- to_set
+- uniq
+- 
 
 
 To enable your own class to support all the `Enumerable` methods, you need to:
