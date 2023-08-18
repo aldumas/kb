@@ -16,21 +16,24 @@ To enable your own class to support all the `Enumerable` methods, you need to:
 2. define an `each` method
 
 ```ruby
-class Foo
+class Multiples
 	include Enumerable
 
-	def each(*arg)
-		@list.each(*arg)
+	def each(&blk)
+		(@num...@max).step(@num).each(&blk)
 	end
 	
-	def initialize
-		@list = %w(foo bar baz qux)
+	def initialize(num, max)
+		@num = num
+		@max = max
 	end
 end
 
-foo = Foo.new
+class Integer
 
-foo.any? { |value| value.include? "a" }
+multiples_of_3 = Multiples.new(3, 10)
+
+multiples_of_3.any? { |value|  }
 ```
 
 
