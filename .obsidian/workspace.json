@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/enumerable-each.md",
+                "file": "ruby/enumerable-including.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/enumerable-each.md",
+                "file": "ruby/enumerable-including.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/enumerable-each.md",
+                "file": "ruby/enumerable-including.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/enumerable-each.md"
+                "file": "ruby/enumerable-including.md"
               }
             }
           }
@@ -157,10 +157,10 @@
   },
   "active": "8967819363d5798a",
   "lastOpenFiles": [
-    "ruby/enumerable.md",
     "ruby/enumerable-each.md",
-    "ruby/enumerable-each.rb.md",
     "ruby/enumerable-including.md",
+    "ruby/enumerable.md",
+    "ruby/enumerable-each.rb.md",
     "ruby/topics.md",
     "ruby/idioms.md",
     "ruby/hash-equality.md",

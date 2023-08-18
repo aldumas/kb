@@ -1,6 +1,6 @@
 ---
 created-at: 2023-08-17 19:18
-tags: ruby todo
+tags: ruby, todo
 ---
 
 The `Enumerable` class provides methods for working with collections that can be iterated over. Some classes which include it are:
@@ -16,7 +16,7 @@ Note that String does NOT include `Enumerable`, but it does have some methods to
 Here are some commonly used methods in `Enumerable`:
 
 - [each/each_with_index/each_with_object](ruby/enumerable-each.md)
-- map
+- map/collect/collect_concat
 - select (or filter)/reject
 - reduce (or inject)
 - find (or detect)/find_all
@@ -31,7 +31,6 @@ Other methods:
 
 - chain
 - chunk/chunk_while
-- collect/collect_concat
 - compact
 - cycle
 - drop/drop_while
