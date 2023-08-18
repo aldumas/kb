@@ -31,14 +31,13 @@ end
 
 class Integer
 	def perfect_square?
-		root = Math.sqrt(self)
-		root % 1 == 0
+		Math.sqrt(self) % 1 == 0
 	end
 end
 
 multiples_of_3 = Multiples.new(3, 10)
 
-multiples_of_3.any?(&:perfect_square?)
+puts multiples_of_3.any?(&:perfect_square?)
 ```
 
 
