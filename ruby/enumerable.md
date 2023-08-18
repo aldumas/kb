@@ -11,12 +11,13 @@ The `Enumerable` class provides methods for working with collections that can be
 - Range
 - Enumerator
 
+Note that String does NOT include `Enumerable`, but it does have some methods to iterate over the characters.
+
 Here are some commonly used methods in `Enumerable`:
 
-- each
+- [each/each_with_index/each_with_object](ruby/enumerable-each.md)
 - map
-- select (or filter)
-- reject
+- select (or filter)/reject
 - reduce (or inject)
 - find (or detect)/find_all
 - any?
@@ -26,7 +27,7 @@ Here are some commonly used methods in `Enumerable`:
 - zip
 - count
 
-Other methods I want to look into:
+Other methods:
 
 - chain
 - chunk/chunk_while
@@ -63,57 +64,15 @@ Other methods I want to look into:
 - to_h
 - to_set
 - uniq
-- 
 
 
-To enable your own class to support all the `Enumerable` methods, you need to:
-1. include the `Enumerable` module in your class
-2. define an `each` method
 
-```ruby
-class Multiples  
-  include Enumerable  
-  
-  def each(&blk)  
-    (@num...@max).step(@num).each(&blk)  
-  end  
-  
-  def initialize(num, max)  
-    @num = num  
-    @max = max  
-  end  
-end  
-  
-class Integer  
-  def perfect_square?  
-    Math.sqrt(self) % 1 == 0  
-  end  
-end  
-  
-multiples_of_3 = Multiples.new(3, 10)  
-  
-# We can call any? because we included Enumerable and defined an each method
 
-puts multiples_of_3.any?(&:perfect_square?)
+
 ```
 
 
-each_with_index
-each_with_object (why use this instead of a closure?) Answer: to create an enumerator that includes it such that some other code can enumerate it.
-
-```ruby
-def print_pairs(pairs) # TODO how would you specify that the block passed to pairs.each should accept 2 args?
-  pairs.each { |first, second| puts "#{first}: #{second}" }
-end
-
-fruit = %w(apple banana pear peach kiwi)
-
-pairs = fruit.each_with_object(42)
-
-print_pairs(pairs)
-```
-
-
+TODO do examples of enumerating over Array vs Hash vs Struct
 
 When would you use this?
 - [`Object#to_enum`](dfile:///Users/dumas/Library/Application%20Support/Dash/DocSets/Ruby_3/Ruby.docset/Contents/Resources/Documents/Object.html#method-i-to_enum)
