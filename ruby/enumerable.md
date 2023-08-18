@@ -11,13 +11,34 @@ The `Enumerable` class provides methods for working with collections that can be
 - Range
 - Enumerator
 
+To enable your own class to support all the `Enumerable` methods, you need to:
+1. include the `Enumerable` module in your class
+2. define an `each` method
+
+```ruby
+class Foo
+	include Enumerable
+
+	def each(*arg)
+		@list.each(*arg)
+	end
+	
+	def initialize
+		@list = %w(foo bar baz qux)
+	end
+end
+
+foo = Foo.new
+
+foo.any? { |value| value.include? "a" }
+```
 
 
 each_with_index
 each_with_object (why use this instead of a closure?) Answer: to create an enumerator that includes it such that some other code can enumerate it.
 
 ```ruby
-def print_pairs(pairs)
+def print_pairs(pairs) # TODO how would you specify that the block passed to pairs.each should accept 2 args?
   pairs.each { |first, second| puts "#{first}: #{second}" }
 end
 
