@@ -11,7 +11,20 @@ The `Enumerable` class provides methods for working with collections that can be
 - Range
 - Enumerator
 
+Here are some commonly used methods in `Enumerable`:
 
+- each
+- map
+- select (or filter)
+- reject
+- reduce (or inject)
+- find (or detect)
+- any?
+- all?
+- none?
+- sort
+- zip
+- count
 
 
 
