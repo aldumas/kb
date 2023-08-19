@@ -6,6 +6,17 @@ tags: ruby
 Methods of [Enumerable](ruby/enumerable.md)
 # each
 
+## Ordering
+
+The general concept of `each` does not suppose any particular order.
+
+For Arrays, the order is the order of the elements in the array, but for Hash the order is not defined. #todo make an example of getting an enumerator that enumerates in a specific order.  i.e. order of keys, order of some property of the value.
+
+When writing functions which call `each` on other objects to iterate over them, if the operation you are doing requires a specific order, you can either require the objects to define their `each` so that the ordering is inherit, or require them to provide a way for you to specify the ordering you desire from each. E.g. instead of calling `each` directly on the object passed in via an argument, send it a message to return you an iterator that iterates over the desired order. #todo think more on this.
+
+#todo see Comparable
+
+
 # each_with_index
 
 # each_with_object
