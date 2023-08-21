@@ -99,7 +99,7 @@ Proc
 Tricks
 - How to find where a method is coming from: puts obj.method(:method_name).owner. Also class. See what happens if it's a module method, singleton_class method.
 
-
+Deconstructing pairs (and others) into block arguments.
 
 ```ruby
 # TODO is there a better way to do: .each { |job| yield job } YES... here's an example of forwarding to another each:  
