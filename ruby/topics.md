@@ -61,6 +61,7 @@ Singleton classes
 Class vs super
 
 forwarding arguments (positional, keyword, block)... when does super automatically forward them?
+Is ... a thing? How does single star forwarding work in 3.2 (if it does)?
 
 Is it an error to call a function without a block but which has a format argument of &blk? If you have a Proc object, do you have to precede it by an ampersand for it to be used as the function's block? Show an example of passing it both as a positional parameter AND as the block.
 
@@ -97,6 +98,45 @@ Proc
 
 Tricks
 - How to find where a method is coming from: puts obj.method(:method_name).owner. Also class. See what happens if it's a module method, singleton_class method.
+
+
+
+```ruby
+# TODO is there a better way to do: .each { |job| yield job } YES... here's an example of forwarding to another each:  
+
+class Foo  
+  def each(&blk) # note: you can't capture the block with the split operator, e.g. `*args`. You need to use &.  
+    (1..5).each(&blk)  
+  end  
+end  
+  
+f = Foo.new  
+ 
+f.each { |i| puts i }  
+  
+def after(this)  
+  this.call  
+  yield  
+end  
+
+say_hello = proc { puts "Hello!" }  
+say_hi = lambda { puts "Hi!" }  
+
+# TODO understand difference between Proc and lambda.  I know the return behavior is one thing.  
+
+after(say_hello) { puts "Goodbye!" }  
+after(say_hi) { puts "Bye!" }  
+
+# Not a syntax error if method expects to capture the block but none given... just becomes nil
+
+def with(&blk)  
+  if blk then blk.call else puts("No block given") end  
+end  
+  
+with { puts "A block WAS given" }  
+with
+```
+
 
 ---
 References:
