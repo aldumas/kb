@@ -60,6 +60,10 @@ Singleton classes
 
 Class vs super
 
+forwarding arguments (positional, keyword, block)... when does super automatically forward them?
+
+Is it an error to call a function without a block but which has a format argument of &blk? If you have a Proc object, do you have to precede it by an ampersand for it to be used as the function's block? Show an example of passing it both as a positional parameter AND as the block.
+
 value || raise does not work syntactically, but you can wrap the raise in a method and call the method: value || raise_error_method
 
 C code
