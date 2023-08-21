@@ -98,6 +98,7 @@ Proc
 
 Tricks
 - How to find where a method is coming from: puts obj.method(:method_name).owner. Also class. See what happens if it's a module method, singleton_class method.
+- Use Object#send to bypass visibility checks (use sparingly, useful for unit testing)
 
 Deconstructing pairs (and others) into block arguments.
 
