@@ -47,94 +47,66 @@ How do we run the jobs present in our Hash in order of priority?
 # Approaches
 
 We'll explore two main approaches:
-1. Replace the receiver of the `each` message. The idea is this: instead of passing the `Hash` into `Job.perform_all`, we'll pass a different object whose `each` method will `yield` the `Job`s in order of priority. We'll explore a few different options.
-2. Intercept the `each` message such that a different method runs rather than `Hash#each`. Here, we'll pass in the `Hash` but we will patch it so that a different method runs when `Job.perform_all` calls `each` on it.
+1. Change the receiver of the `each` message. The idea is this: instead of passing the `Hash` into `Job.perform_all`, we'll pass a different object whose `each` method will `yield` the `Job`s in order of priority. We'll explore a few different options.
+2. Change the method that gets run when `jobs_hash` receives the `each` message. Here, we'll pass in the `Hash` but we will patch it so that a different method runs when `Job.perform_all` calls `each` on it.
 
+## Approach 1: Change the receiver of the `each` message
 
+### Option 1: Transform the `Hash` into an object that has an `each` method which will yield `Job`s in order of priority.  
 
-1. Transform the `Hash` into an object that has an `each` method which will yield `Job`s in order of priority. (This is probably the most obvious solution (and not a bad one)).
-2. Tweak our `jobs` hash to have an `each` method that yields `Job`s in order of priority.  
-3. Create an enumerator that has an `each` method that yields `Job`s in order of priority. 
-	a. By using Object#enum_for. 
-	b. By defining a class which exposes an `each` method that yields `Job`s in order of priority.  
-  
-# Option 1: Transform the `Hash` into an object that has an `each` method which will yield `Job`s in order of priority.  
-  
+```ruby
 jobs_array = jobs_hash.values.sort_by(&:priority)  
   
 Job.perform_all(jobs_array)  
-  
-=begin  
+```
   
 This works because:  
 1. `Array#each` yields the elements in of the array in the order that they exist in the array.  
 2. The elements of the array are `Job`s instead of key/value pairs.  
   
-It's simple and it works great.  
-  
-=end  
-  
-# Option 2: Tweak our `jobs` hash to have an `each` method that yields `Job`s in order of priority.  
-  
-def jobs_hash.each(&proc)  
-  values.sort_by(&:priority).each(&proc)  
-end  
-  
-# Note: if you don't have to sort it, you can skip converting the hash to an array with `values` by using `each_value`  
-# instead of `each`. The problem with having to sort it is that `sort_by` returns an array, and Array does not have  
-# `each_value`. You would have to convert it back to a hash again, but then you would lose your ordering (and it's an  
-# extra method call). The upshot is that if you don't care about ordering, each_value saves you from having to create  
-# an array only to throw it away.  
-  
-Job.perform_all(jobs_hash)  
-  
-=begin  
-  
-This works by creating a method in the singleton class associated with this specific hash instance (i.e. no other hash)  
-instances have access to this method.  
-  
-During method lookup, the singleton class associated with jobs_hash is looked at before Hash#each and our custom `each`  
-method is found and used.  
-  
-# TODO discuss why this can make code hard to reason about.  
-  
-=end  
-  
-# Since we modified the singleton class object for `jobs_hash`, we need to clean up for the next example.  
-class << jobs_hash  
-  remove_method :each  
-end  
-  
-# Option 3a: Create an enumerator that has an `each` method that yields `Job`s in order of priority by using Object#enum_for  
-  
-=begin  
-  
-In order to use `Object#enum_for` (or its synonym `Object#to_enum`), the object needs to have a method which does the  
-iteration in the desired order. The benefit of this approach is that we don't need to redefine `each` so all other code  
-continues to use the built-in `each`.  
-  
-In order to add the method to the hash, we can use the same trick as the previous option by defining a new singleton  
-method with a new name. The only code which will use this method is the code which generates the enumerator.  
-  
-=end  
-  
-def jobs_hash.each_job_in_priority_order(&proc)  
-  values.sort_by(&:priority).each(&proc)  
-end  
-  
-# This creates an object whose `each` uses `each_job_in_priority_order` under the hood.  
+It's simple and it works great.
+
+### Option 2: Use `Object#enum_for` to create an enumerator with an `each` method which uses a custom method under the hood
+
+In order to use `Object#enum_for` (or its synonym `Object#to_enum`), the object needs to have a method which does the iteration in the desired order. In order to add the method to the hash, we can define a new singleton method. The only code which will use this method is the code which generates the enumerator.  
+
+```ruby
+class << jobs_hash
+	def each_job_in_priority_order(&proc)  
+	  values.sort_by(&:priority).each(&proc)  
+	end
+end 
+```
+
+Now we use `Object#enum_for` to create an object whose `each` uses `each_job_in_priority_order` under the hood.
+
+```ruby
 jobs_in_priority_order = jobs_hash.enum_for(:each_job_in_priority_order)  
   
 Job.perform_all(jobs_in_priority_order)  
-  
-# Clean up  
-  
-class << jobs_hash  
-  remove_method :each_job_in_priority_order  
-end  
-  
-# IMPORTANT: Since we removed :each_job_in_priority_order, calls to `jobs_in_priority_order#each` will no longer work.  
-  
+```
+
+`Object#enum_for` works best when you don't need to add special singleton methods, like we did here. If you're working with your own class, you can define different enumerator methods that you think will be generally useful, and then clients can either use those directly or, if they need to run code which relies on `each` they can use `Object#enum_for` to get an object whose `each` relies on the desired enumerator method.
+
+## Approach 2: Change the method that gets run when `jobs_hash` receives the `each` message
+
+### Option 1: Add an `each` singleton method
+
+```ruby
+class << jobs_hash
+	def each(&proc)
+		values.sort_by(&:priority).each(&proc)  
+	end
+end
+
+Job.perform_all(jobs_hash)  
+```
+
+Because method resolution finds singleton methods before methods defined in the class, this new `each` singleton method will be used when `jobs_hash.each` is called.
+
+The main drawback to this approach as that the new `each` behavior only applies to this specific `Hash` instance. If you recreate `jobs_hash` but don't add the singleton method, you won't get the new `each` behavior.
+
+
 # Option 3b: Create an enumerator that has an `each` method that yields `Job`s in order of priority by defining a class which exposes an `each` method that yields `Job`s in order of priority.  
   
 class HashValueEnumerator  
@@ -157,6 +129,44 @@ Job.perform_all(jobs_in_priority_order)
 HashValueEnumerator is general enough to put in a library. You could also make it more useful by having the `initialize`  
 method accept a block which transforms the value to whatever the caller desires, and then use that transform in the  
 implementation of `each` so the desired values are yielded.
+
+
+
+
+
+
+
+
+More options to add:
+
+```ruby
+
+# Option X (change `each` method)
+
+# class << jobs_hash  
+#   def jobs_in_priority_order(&proc)  
+#     values.sort_by(&:priority).each(&proc)  
+#   end  
+#  
+#   alias :each :jobs_in_priority_order  
+# end  
+#  
+# Job.perform_all(jobs_hash)  
+
+# Option Y - change the `each` method
+
+module HashJobOrdering  
+  def each(&block)  
+    values.sort_by(&:priority).each(&block)  
+  end  
+end  
+
+class << jobs_hash  
+  prepend HashJobOrdering  
+end  
+  
+Job.perform_all(jobs_hash)
+```
 
 ---
 References:
