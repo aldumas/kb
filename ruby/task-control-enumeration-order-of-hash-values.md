@@ -66,7 +66,7 @@ This works because:
   
 It's simple and it works great.
 
-### Option 2: Use `Object#enum_for` to create an enumerator with an `each` method which uses a custom method under the hood
+### Option 2a: Use `Object#enum_for` to create an enumerator with an `each` method which uses a custom method defined on the object under the hood
 
 In order to use `Object#enum_for` (or its synonym `Object#to_enum`), the object needs to have a method which does the iteration in the desired order. In order to add the method to the hash, we can define a new singleton method. The only code which will use this method is the code which generates the enumerator.  
 
@@ -87,6 +87,32 @@ Job.perform_all(jobs_in_priority_order)
 ```
 
 `Object#enum_for` works best when you don't need to add special singleton methods, like we did here. If you're working with your own class, you can define different enumerator methods that you think will be generally useful, and then clients can either use those directly or, if they need to run code which relies on `each` they can use `Object#enum_for` to get an object whose `each` relies on the desired enumerator method.
+
+### Option 2b: Use `Object#enum_for` to create an enumerator with an `each` method which uses a custom method defined on a separate object under the hood
+
+If you're NOT working with your own class, one workaround is to define a new class which has access to your object and that will become home to one or more enumerator methods, and then use `Object#enum_for` on *that*. For example:
+
+```ruby
+class HashJobEnumerator  
+  def initialize(hash)  
+    @hash = hash  
+  end  
+  
+  def each_job_in_priority_order(&proc)  
+    @hash.values.sort_by(&:priority).each(&proc)  
+  end  
+  
+  # ... other each_x methods as needed  
+end  
+  
+jobs_in_priority_order = HashJobEnumerator.new(jobs_hash).enum_for(:each_job_in_priority_order)  
+  
+Job.perform_all(jobs_in_priority_order)  
+```
+  
+One nice thing about this approach is that, if your program needs to enumerate the hash map in multiple ways, you can add enumerator methods as needed without modifying `job_hash`, itself.
+
+The upshot is that, not only are we changing the receiver, we are also using `Object#enum_for` to select the method that gets run when the `each` message is sent to it.
 
 ### Option 3: Create a new class with the desired `each` behavior and which has access to the `jobs_hash`
 
