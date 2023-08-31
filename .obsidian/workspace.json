@@ -8,25 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1f35ec3cd570e782",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "6529376932dbd5ec",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.5"
+                "file": "dragonruby/game-ideas.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dragonruby/game-ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "dragonruby/game-ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "dragonruby/game-ideas.md"
+              }
             }
           }
         ]
@@ -150,5 +147,10 @@
     }
   },
   "active": "6529376932dbd5ec",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "ruby/idioms.md",
+    "dragonruby/game-ideas.md",
+    "dragonruby/tutorial-ideas.md",
+    "dragonruby/labels-point-alignment.md"
+  ]
 }

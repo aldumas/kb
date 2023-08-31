@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd84b93d-86af-4d91-8447-bf0b8e12be31" name="Changes" comment="Removed .obsidian and added .gitignore">
-      <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/workspace.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ruby/idioms.md" beforeDir="false" afterPath="$PROJECT_DIR$/ruby/idioms.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668748755248</updated>
-      <workItem from="1693515782567" duration="325000" />
+      <workItem from="1693515782567" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="Removed .obsidian and added .gitignore">
       <created>1668749063309</created>
