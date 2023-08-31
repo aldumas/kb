@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "a88b61a5296f24c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "69176325fe328d4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8967819363d5798a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dragonruby/game-ideas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34593bf47d2cb0c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "442e1b1752aad750",
+    "type": "split",
+    "children": [
+      {
+        "id": "57a578a6b3caa330",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebb925963bf15bbd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d53ffc70c5257332",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#todo",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a50a91cc96bedb58",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "d2f2209a5d49fd4d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "cd2dc7551dc4ecbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6afc85d8cc4a887",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffe14ecba62d0948",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "todo",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "80008655e921cdbb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1310a20da3affd38",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "33a6c711ec03f951",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "34593bf47d2cb0c3",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "dragonruby/game-ideas.md",
+    "dragonruby/tutorial-ideas.md",
+    "dragonruby/labels-point-alignment.md",
+    "data/templates/dragonruby.md",
+    "data/templates/ruby.md",
+    "ruby/task-control-enumeration-order-of-hash-values.md",
+    "dragonruby",
+    "ruby/topics.md",
+    "ruby/enumerable-each.md",
+    "ruby/enumerable-including.md",
+    "ruby/enumerable.md",
+    "ruby/enumerable-each.rb.md",
+    "ruby/idioms.md",
+    "ruby/hash-equality.md",
+    "ruby/do-not-rescue-exception.md",
+    "ruby/class-variables-vs-class-instance-variables.md",
+    "ruby/reference-equality.md",
+    "ruby/when-to-use-kernel-conversion-functions.md",
+    "ruby/variable-scope-and-control-structures.md",
+    "examples.md",
+    "ruby/value-equality.md",
+    "reference equality.md",
+    "data/templates/docker.md",
+    "data",
+    "categories/programming/ruby/ruby-topics.md",
+    "ruby-topics.md",
+    "templates/ruby.md.template",
+    "Untitled.md",
+    "data/files/Core Java - 03.04.01b-03.04.04.pdf",
+    "docker",
+    "rails",
+    "ruby",
+    "git",
+    "kotlin",
+    "unicode"
+  ]
+}

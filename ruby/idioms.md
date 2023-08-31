@@ -30,6 +30,17 @@ end
 ```
 
 ---
+
+Given a `Hash` parameter, provide default values for keys but override with matching ones from the parameter:
+
+```
+def some_method(**args)
+	params = { status: "A" }.merge(args)
+	...
+end
+```
+
+---
 References:
 
 

@@ -1,46 +1,39 @@
 {
   "main": {
-    "id": "792309468aad786d",
+    "id": "a88b61a5296f24c0",
     "type": "split",
     "children": [
       {
-        "id": "971fd74e6811d1b2",
+        "id": "69176325fe328d4c",
         "type": "tabs",
         "children": [
           {
-            "id": "1f35ec3cd570e782",
+            "id": "8967819363d5798a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "6529376932dbd5ec",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.5"
+                "file": "dragonruby/tutorial-ideas.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "94f7ad8076d028e1",
+    "id": "442e1b1752aad750",
     "type": "split",
     "children": [
       {
-        "id": "e0103772217f2d5e",
+        "id": "57a578a6b3caa330",
         "type": "tabs",
         "children": [
           {
-            "id": "ee8445129ce622b6",
+            "id": "ebb925963bf15bbd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,12 +43,12 @@
             }
           },
           {
-            "id": "3ebcebcb95c2a26a",
+            "id": "d53ffc70c5257332",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +58,15 @@
             }
           },
           {
-            "id": "2dfab5412ffb30aa",
+            "id": "a50a91cc96bedb58",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "d2f2209a5d49fd4d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,45 +77,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "63516fafb896fd08",
+    "id": "cd2dc7551dc4ecbc",
     "type": "split",
     "children": [
       {
-        "id": "7eb6f7816504c70c",
+        "id": "d6afc85d8cc4a887",
         "type": "tabs",
         "children": [
           {
-            "id": "ed3aec9a6dd11089",
+            "id": "ffe14ecba62d0948",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dragonruby/tutorial-ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
+                "showSearch": true,
+                "searchQuery": "todo",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "11fc577f6ff8db90",
+            "id": "80008655e921cdbb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "dragonruby/tutorial-ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0a6325e843652bb8",
+            "id": "1310a20da3affd38",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -125,30 +128,70 @@
             }
           },
           {
-            "id": "d763a5f3c6eebb08",
+            "id": "33a6c711ec03f951",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "dragonruby/tutorial-ideas.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6529376932dbd5ec",
-  "lastOpenFiles": []
+  "active": "8967819363d5798a",
+  "lastOpenFiles": [
+    "dragonruby/labels-point-alignment.md",
+    "dragonruby/tutorial-ideas.md",
+    "data/templates/dragonruby.md",
+    "data/templates/ruby.md",
+    "ruby/task-control-enumeration-order-of-hash-values.md",
+    "dragonruby",
+    "ruby/topics.md",
+    "ruby/enumerable-each.md",
+    "ruby/enumerable-including.md",
+    "ruby/enumerable.md",
+    "ruby/enumerable-each.rb.md",
+    "ruby/idioms.md",
+    "ruby/hash-equality.md",
+    "ruby/do-not-rescue-exception.md",
+    "ruby/class-variables-vs-class-instance-variables.md",
+    "ruby/reference-equality.md",
+    "ruby/when-to-use-kernel-conversion-functions.md",
+    "ruby/variable-scope-and-control-structures.md",
+    "examples.md",
+    "ruby/value-equality.md",
+    "reference equality.md",
+    "data/templates/docker.md",
+    "data",
+    "categories/programming/ruby/ruby-topics.md",
+    "ruby-topics.md",
+    "templates/ruby.md.template",
+    "Untitled.md",
+    "ruby/implicit-begin.md",
+    "categories/programming/ruby/Untitled.md",
+    "data/files/Core Java - 03.04.01b-03.04.04.pdf",
+    "docker",
+    "rails",
+    "ruby",
+    "git",
+    "kotlin",
+    "unicode"
+  ]
 }
