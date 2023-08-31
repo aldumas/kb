@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dragonruby/tutorial-ideas.md",
+                "file": "dragonruby/game-ideas.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dragonruby/tutorial-ideas.md",
+                "file": "dragonruby/game-ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dragonruby/tutorial-ideas.md",
+                "file": "dragonruby/game-ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dragonruby/tutorial-ideas.md"
+                "file": "dragonruby/game-ideas.md"
               }
             }
           }
@@ -157,8 +157,9 @@
   },
   "active": "8967819363d5798a",
   "lastOpenFiles": [
-    "dragonruby/labels-point-alignment.md",
     "dragonruby/tutorial-ideas.md",
+    "dragonruby/game-ideas.md",
+    "dragonruby/labels-point-alignment.md",
     "data/templates/dragonruby.md",
     "data/templates/ruby.md",
     "ruby/task-control-enumeration-order-of-hash-values.md",
@@ -185,7 +186,6 @@
     "templates/ruby.md.template",
     "Untitled.md",
     "ruby/implicit-begin.md",
-    "categories/programming/ruby/Untitled.md",
     "data/files/Core Java - 03.04.01b-03.04.04.pdf",
     "docker",
     "rails",
