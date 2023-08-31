@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/task-control-enumeration-order-of-hash-values.md",
+                "file": "data/templates/ruby.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/task-control-enumeration-order-of-hash-values.md",
+                "file": "data/templates/ruby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/task-control-enumeration-order-of-hash-values.md",
+                "file": "data/templates/ruby.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/task-control-enumeration-order-of-hash-values.md"
+                "file": "data/templates/ruby.md"
               }
             }
           }
@@ -157,8 +157,9 @@
   },
   "active": "8967819363d5798a",
   "lastOpenFiles": [
-    "ruby/topics.md",
     "ruby/task-control-enumeration-order-of-hash-values.md",
+    "dragonruby",
+    "ruby/topics.md",
     "ruby/enumerable-each.md",
     "ruby/enumerable-including.md",
     "ruby/enumerable.md",
@@ -185,13 +186,11 @@
     "rails/model-validations.md",
     "data/templates/rails.md",
     "data/files/Core Java - 03.04.01b-03.04.04.pdf",
-    "categories/programming/ruby/rails/Untitled.md",
     "docker",
     "rails",
     "ruby",
     "git",
     "kotlin",
-    "unicode",
-    "java"
+    "unicode"
   ]
 }
