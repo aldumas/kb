@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dragonruby/tutorial-ideas.md",
+                "file": "ruby/idioms.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dragonruby/tutorial-ideas.md",
+                "file": "ruby/idioms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dragonruby/tutorial-ideas.md",
+                "file": "ruby/idioms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dragonruby/tutorial-ideas.md"
+                "file": "ruby/idioms.md"
               }
             }
           }
@@ -157,12 +157,11 @@
   },
   "active": "8967819363d5798a",
   "lastOpenFiles": [
-    "dragonruby/labels-point-alignment.md",
-    "dragonruby/tutorial-ideas.md",
-    "data/templates/dragonruby.md",
-    "data/templates/ruby.md",
     "ruby/task-control-enumeration-order-of-hash-values.md",
+    "dragonruby/tutorial-ideas.md",
+    "dragonruby/labels-point-alignment.md",
     "dragonruby",
+    "data/templates/dragonruby.md",
     "ruby/topics.md",
     "ruby/enumerable-each.md",
     "ruby/enumerable-including.md",
@@ -182,6 +181,7 @@
     "data",
     "categories/programming/ruby/ruby-topics.md",
     "ruby-topics.md",
+    "data/templates/ruby.md",
     "templates/ruby.md.template",
     "Untitled.md",
     "ruby/implicit-begin.md",
