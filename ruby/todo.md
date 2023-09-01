@@ -1,1 +1,1 @@
-- Understand how 
+- Understand how `attr_gtk` gets made available by looking at the bottom of this file: https://github.com/DragonRuby/dragonruby-game-toolkit-contrib/blob/main/dragon/attr_gtk.rb
