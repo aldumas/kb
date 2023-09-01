@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/todo.md",
+                "file": "ruby/topics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/todo.md",
+                "file": "ruby/topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/todo.md",
+                "file": "ruby/topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/todo.md"
+                "file": "ruby/topics.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "6529376932dbd5ec",
   "lastOpenFiles": [
-    "ruby/task-control-enumeration-order-of-hash-values.md",
     "ruby/todo.md",
+    "ruby/task-control-enumeration-order-of-hash-values.md",
     "ruby/topics.md",
     "projects/game-idea-brainstorming.md",
     "projects/game-snake.md",

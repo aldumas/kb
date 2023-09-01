@@ -138,6 +138,24 @@ with { puts "A block WAS given" }
 with
 ```
 
+When setting an instance variable, that has accessors, you need to use self:
+
+```ruby
+class Person
+  attr_accessor :name
+
+  def set_name(new_name)
+    self.name = new_name # Correct way to set the value of the instance variable
+    # name = new_name    # Incorrect way, creates a new local variable
+  end
+end
+
+person = Person.new
+person.set_name("John")
+puts person.name #=> "John"
+```
+
+
 
 ---
 References:
