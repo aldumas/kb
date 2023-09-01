@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/topics.md",
+                "file": "projects/game-idea-brainstorming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/topics.md",
+                "file": "projects/game-idea-brainstorming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/topics.md",
+                "file": "projects/game-idea-brainstorming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/topics.md"
+                "file": "projects/game-idea-brainstorming.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "6529376932dbd5ec",
   "lastOpenFiles": [
+    "ruby/topics.md",
     "ruby/todo.md",
     "ruby/task-control-enumeration-order-of-hash-values.md",
-    "ruby/topics.md",
     "projects/game-idea-brainstorming.md",
     "projects/game-snake.md",
     "projects/eratosthenes-sieve.md",

@@ -44,6 +44,7 @@ Vulnerability:
 - Emotional eating
 - Dark vs light message broadcast; the chain of messaging leading back to lies about human value. Kingdom of man vs God
 - Abortion and human value (can relate to the messaging idea)
+- Is my relationship with God real or just in my head? Trying to experience him in the world and believing there is something that connects us, but struggling with doubt. Will he bring me home?
 
 August Rush - the inside music
 
