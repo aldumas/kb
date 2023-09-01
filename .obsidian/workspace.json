@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dragonruby/game-ideas.md",
+                "file": "projects/game-idea-brainstorming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dragonruby/game-ideas.md",
+                "file": "projects/game-idea-brainstorming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dragonruby/game-ideas.md",
+                "file": "projects/game-idea-brainstorming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dragonruby/game-ideas.md"
+                "file": "projects/game-idea-brainstorming.md"
               }
             }
           }
@@ -148,8 +148,18 @@
   },
   "active": "6529376932dbd5ec",
   "lastOpenFiles": [
-    "ruby/idioms.md",
+    "projects/game-snake.md",
+    "projects/eratosthenes-sieve.md",
+    "projects/game-idea-brainstorming.md",
+    "projects/game-minesweeper.md",
+    "projects/game-conways-game-of-life.md",
     "dragonruby/game-ideas.md",
+    "projects/game-tic-tac-toe.md",
+    "projects/sliding-puzzle--invalid-configurations.md",
+    "projects/sliding-puzzle--solver.md",
+    "projects/simulation-lets-make-a-deal.md",
+    "projects/game-hangman.md",
+    "ruby/idioms.md",
     "dragonruby/tutorial-ideas.md",
     "dragonruby/labels-point-alignment.md"
   ]
