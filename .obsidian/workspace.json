@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/game-idea-brainstorming.md",
+                "file": "ruby/todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/game-idea-brainstorming.md",
+                "file": "ruby/todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/game-idea-brainstorming.md",
+                "file": "ruby/todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/game-idea-brainstorming.md"
+                "file": "ruby/todo.md"
               }
             }
           }
@@ -148,9 +148,12 @@
   },
   "active": "6529376932dbd5ec",
   "lastOpenFiles": [
+    "ruby/task-control-enumeration-order-of-hash-values.md",
+    "ruby/todo.md",
+    "ruby/topics.md",
+    "projects/game-idea-brainstorming.md",
     "projects/game-snake.md",
     "projects/eratosthenes-sieve.md",
-    "projects/game-idea-brainstorming.md",
     "projects/game-minesweeper.md",
     "projects/game-conways-game-of-life.md",
     "dragonruby/game-ideas.md",
