@@ -81,3 +81,5 @@ Something silly about weeding.
 Vertical scroller about bird pooping. Flight up and down, speed changing, precision targeting
 
 Crazy typing tutor . Eg Saw edition. If you don’t type a certain rate , a cartoon character dude dies. Or maybe you get slimed on.
+
+Protecting your kids from monsters. For example monsters in their room. Morale is that the monster in your own heart is the real threat. How do you fight it?
