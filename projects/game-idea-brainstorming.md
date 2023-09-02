@@ -45,6 +45,7 @@ Vulnerability:
 - Dark vs light message broadcast; the chain of messaging leading back to lies about human value. Kingdom of man vs God
 - Abortion and human value (can relate to the messaging idea)
 - Is my relationship with God real or just in my head? Trying to experience him in the world and believing there is something that connects us, but struggling with doubt. Will he bring me home?
+- wanting to spend quality time with Darin but being limited to what we can do. Not like that song about living like you were dying because sometimes you find out when you’re too sick to take advantage.
 
 August Rush - the inside music
 
