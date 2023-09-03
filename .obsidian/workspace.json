@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby/enumerable.md",
-                "mode": "preview",
+                "file": "dragonruby/render-order.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/enumerable.md",
+                "file": "dragonruby/render-order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/enumerable.md",
+                "file": "dragonruby/render-order.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/enumerable.md"
+                "file": "dragonruby/render-order.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "6529376932dbd5ec",
   "lastOpenFiles": [
+    "ruby/enumerable.md",
+    "dragonruby/render-order.md",
     "ruby/enumerable-including.md",
     "ruby/enumerable-each.md",
-    "ruby/enumerable.md",
     "ruby/task-control-enumeration-order-of-hash-values.md",
     "projects/game-idea-brainstorming.md",
     "ruby/topics.md",
