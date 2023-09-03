@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dragonruby/render-order.md",
+                "file": "dragonruby/solids-point.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dragonruby/render-order.md",
+                "file": "dragonruby/solids-point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dragonruby/render-order.md",
+                "file": "dragonruby/solids-point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dragonruby/render-order.md"
+                "file": "dragonruby/solids-point.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "6529376932dbd5ec",
   "lastOpenFiles": [
-    "ruby/enumerable.md",
+    "dragonruby/labels-point-alignment.md",
+    "dragonruby/solids-point.md",
     "dragonruby/render-order.md",
+    "ruby/enumerable.md",
     "ruby/enumerable-including.md",
     "ruby/enumerable-each.md",
     "ruby/task-control-enumeration-order-of-hash-values.md",
@@ -167,7 +169,6 @@
     "projects/simulation-lets-make-a-deal.md",
     "projects/game-hangman.md",
     "ruby/idioms.md",
-    "dragonruby/tutorial-ideas.md",
-    "dragonruby/labels-point-alignment.md"
+    "dragonruby/tutorial-ideas.md"
   ]
 }
