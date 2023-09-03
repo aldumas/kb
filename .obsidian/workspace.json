@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/game-idea-brainstorming.md",
-                "mode": "source",
+                "file": "ruby/enumerable.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/game-idea-brainstorming.md",
+                "file": "ruby/enumerable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/game-idea-brainstorming.md",
+                "file": "ruby/enumerable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/game-idea-brainstorming.md"
+                "file": "ruby/enumerable.md"
               }
             }
           }
@@ -148,10 +148,13 @@
   },
   "active": "6529376932dbd5ec",
   "lastOpenFiles": [
-    "ruby/topics.md",
-    "ruby/todo.md",
+    "ruby/enumerable-including.md",
+    "ruby/enumerable-each.md",
+    "ruby/enumerable.md",
     "ruby/task-control-enumeration-order-of-hash-values.md",
     "projects/game-idea-brainstorming.md",
+    "ruby/topics.md",
+    "ruby/todo.md",
     "projects/game-snake.md",
     "projects/eratosthenes-sieve.md",
     "projects/game-minesweeper.md",
