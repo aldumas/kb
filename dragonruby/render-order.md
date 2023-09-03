@@ -15,7 +15,7 @@ Primitives are rendered first-in, first-out. The rendering order (sorted by bott
 - `borders`
 - `debug`: Accepts all render primitives. Use this to render primitives for debugging (production builds of your game will not render this layer).
 
-This means you have limited control over how these items overlap. Within a category, you can control the order you add them. But you cannot expect to paint over a line with a solid. The line will always appear on top of the solid since solids are rendered first.
+This means you have limited control over how these items overlap. Within a category, you can control the order you add them. But you cannot expect to paint over a line with a solid. The line will always appear on top of the solid since solids are rendered first. This can be bypassed by using primitives.
 
 
 ---
