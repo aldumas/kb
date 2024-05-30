@@ -17,7 +17,7 @@ This is an array of paths to search for assets. It is used for a couple of thing
 1. To resolve files used in @import or //= require directives.
 2. To resolve files referenced by helpers, e.g. `<%= stylesheet_link_tag 'application' %>`.
 
-Paths in `manifest.js` are relative to the location of `manifest.js` and don't use `Rails.application.config.assets.path`.
+Note that `link_tree` and `link_directory` use paths relative to the `manifest.js` file, whereas `link` requires a logical path (relative to one of the entries in `Rails.application.config.assets.path`)
 
 # Types of requires
 
