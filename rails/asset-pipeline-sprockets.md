@@ -16,3 +16,29 @@ This is an array of paths to search for assets. It is used for a couple of thing
 
 1. To resolve files used in @import or //= require directives.
 2. To resolve files referenced by helpers, e.g. `<%= stylesheet_link_tag 'application' %>`.
+
+Paths in `manifest.js` are relative to the location of `manifest.js` and don't use `Rails.application.config.assets.path`.
+
+# Types of requires
+
+From the [Sprockets](https://github.com/rails/sprockets) README:
+
+The directive processor understands comment blocks in three formats:
+
+```css
+/* Multi-line comment blocks (CSS, SCSS, JavaScript)
+ *= require foo
+ */
+```
+
+```javascript
+// Single-line comment blocks (SCSS, JavaScript)
+//= require foo
+```
+
+```coffeescript
+# Single-line comment blocks (CoffeeScript)
+#= require foo
+```
+
+For me, the CSS require didn't work, though I am using dartsass, so maybe that was part of the issue. Instead, I used @import or @use and the content of the file was added (instead of just putting the @import in the output).
