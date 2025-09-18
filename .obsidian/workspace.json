@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "07f6380df8384837",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +169,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6529376932dbd5ec",
+  "active": "07f6380df8384837",
   "lastOpenFiles": [
     "dragonruby/render-order.md",
     "rails/asset-pipeline-sprockets.md",
